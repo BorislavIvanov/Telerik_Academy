@@ -1,0 +1,5 @@
+C:\Users\BoBBy\Desktop\12. Refactoring\01. MatrixTraversal\bin\Debug\MatrixTraversal.dll
+C:\Users\BoBBy\Desktop\12. Refactoring\01. MatrixTraversal\bin\Debug\MatrixTraversal.pdb
+C:\Users\BoBBy\Desktop\12. Refactoring\01. MatrixTraversal\obj\Debug\01. Matrix.csprojResolveAssemblyReference.cache
+C:\Users\BoBBy\Desktop\12. Refactoring\01. MatrixTraversal\obj\Debug\MatrixTraversal.dll
+C:\Users\BoBBy\Desktop\12. Refactoring\01. MatrixTraversal\obj\Debug\MatrixTraversal.pdb
