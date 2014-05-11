@@ -1,0 +1,56 @@
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\bin\Debug\ProgramDioptase.exe.config
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\bin\Debug\ProgramDioptase.exe
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\bin\Debug\ProgramDioptase.pdb
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\Program Dioptase.csprojResolveAssemblyReference.cache
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\ClientsLibrary.baml
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\GamesLibrary.baml
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\InfoAboutCatalogItem.baml
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\MainWindow.baml
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\MoviesLibrary.baml
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\MusicLibrary.baml
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\RentOptionScreen.baml
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\WindowStatistics.baml
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\ClientsLibrary.g.cs
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\GamesLibrary.g.cs
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\InfoAboutCatalogItem.g.cs
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\MainWindow.g.cs
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\MoviesLibrary.g.cs
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\MusicLibrary.g.cs
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\RentOptionScreen.g.cs
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\WindowStatistics.g.cs
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\App.g.cs
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\ProgramDioptase_MarkupCompile.cache
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\ProgramDioptase.g.resources
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\ProgramDioptase.Properties.Resources.resources
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\Program Dioptase.csproj.GenerateResource.Cache
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\ProgramDioptase.exe
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\ProgramDioptase.pdb
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\bin\Debug\ProgramDioptase.exe.config
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\ProgramDioptase.exe
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\ProgramDioptase.pdb
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\Program Dioptase.csprojResolveAssemblyReference.cache
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\ClientsLibrary.baml
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\GamesLibrary.baml
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\InfoAboutCatalogItem.baml
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\MainWindow.baml
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\MoviesLibrary.baml
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\MusicLibrary.baml
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\RentOptionScreen.baml
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\WindowStatistics.baml
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\ClientsLibrary.g.cs
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\GamesLibrary.g.cs
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\InfoAboutCatalogItem.g.cs
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\MainWindow.g.cs
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\MoviesLibrary.g.cs
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\MusicLibrary.g.cs
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\RentOptionScreen.g.cs
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\WindowStatistics.g.cs
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\App.g.cs
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\ProgramDioptase_MarkupCompile.cache
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\ProgramDioptase.g.resources
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\ProgramDioptase.Properties.Resources.resources
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\obj\Debug\Program Dioptase.csproj.GenerateResource.Cache
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\bin\Debug\ProgramDioptase.exe
+C:\Users\BoBBy\Desktop\Dioptase Project\Program Dioptase\bin\Debug\ProgramDioptase.pdb
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\SellOptionScreen.baml
+D:\#Telerik#\04. ООП - пролетна академия 2013\Отборна работа по ООП\Team-Dioptase-Project\Dioptase Project\Program Dioptase\obj\Debug\SellOptionScreen.g.cs
