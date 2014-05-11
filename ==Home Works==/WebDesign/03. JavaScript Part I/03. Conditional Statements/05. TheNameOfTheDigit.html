@@ -1,0 +1,45 @@
+﻿<!--05.Write script that asks for a digit and depending on the input shows the name of that digit (in English) 
+using a switch statement.-->
+<html>
+<head>
+	<title>05. TheNameOfTheDigit</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+        <div id="input">
+            <form>
+                <p>Enter a digit in range 0-9</p>
+                <label for="inputNum">First Value</label>
+                <input type="text" id="inputNum"/>
+                <a onclick="OnButtonClick()">Result</a>
+            </form>
+        </div>
+	</div>
+    <div id="task">
+        <p>Task 05.Write script that asks for a digit and depending on the input shows the name of that digit (in English) 
+        using a switch statement.</p>
+    </div> 
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    function OnButtonClick() {
+	        var number = jsConsole.readInteger("#inputNum");
+	        
+	        switch (number) {
+	            case 0: jsConsole.writeLine("The Digit is Zero!"); break;
+	            case 1: jsConsole.writeLine("The Digit is One!"); break;
+	            case 2: jsConsole.writeLine("The Digit is Two!"); break;
+	            case 3: jsConsole.writeLine("The Digit is Three!"); break;
+	            case 4: jsConsole.writeLine("The Digit is Four!"); break;
+	            case 5: jsConsole.writeLine("The Digit is Five!"); break;
+	            case 6: jsConsole.writeLine("The Digit is Six!"); break;
+	            case 7: jsConsole.writeLine("The Digit is Seven!"); break;
+	            case 8: jsConsole.writeLine("The Digit is Eight!"); break;
+	            case 9: jsConsole.writeLine("The Digit is Nine!"); break;
+	            default: jsConsole.writeLine("Warning! Enter only a Digit!!!"); break;
+
+	        }
+	    }
+	</script>
+</body>
+</html>

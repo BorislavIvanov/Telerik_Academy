@@ -1,0 +1,46 @@
+﻿<!--05.Write a function that counts how many times given number appears in given array. 
+Write a test function to check if the function is working correctly.-->
+<html>
+<head>
+	<title>05. CountOfNumberInArray</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+        <div id="input">
+            <form>
+                <p>The array is - [5, 9, 3, 4, 5, 2, 1, 5, 6, 3, 4, 3, 2, 1, 6, 4, 2, 4, 3]</p>
+                <p>Enter the Number Value</p>
+                <label for="inputNumber">Number:</label>
+                <input type="text" id="inputNumber"/><br /><br />
+                <a onclick="OnButtonClick()">Result</a>
+            </form>
+        </div>
+	</div>
+    <div id="task">
+        <p>Task 05.Write a function that counts how many times given number appears in given array. 
+        Write a test function to check if the function is working correctly.</p>
+    </div> 
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    function OnButtonClick() {
+	        var arrayOfNumbers = [5, 9, 3, 4, 5, 2, 1, 5, 6, 3, 4, 3, 2, 1, 6, 4, 2, 4, 3];
+	        var inputNumber = jsConsole.read("#inputNumber");
+
+	        Counter(arrayOfNumbers, inputNumber);
+
+	        function Counter(array, number) {
+	            var count = 0;
+
+	            for (var i = 0; i < array.length; i++) {
+	                if (array[i] == number) {
+	                    count++;
+	                }
+	            }
+
+	            jsConsole.writeLine("The count of " + number + " is: " + count);
+	        }
+	    }
+        </script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+﻿<!--01.Write functions for working with shapes in standard Planar coordinate system:
+- Points are represented by coordinates P(X, Y);
+- Lines are represented by two points, marking their beginning and ending L(P1(X1,Y1),P2(X2,Y2));
+- Calculate the distance between two points;
+- Check if three segment lines can form a triangle;
+-->
+<html>
+<head>
+	<title>01. ShapesInStandardPlanarCoordinateSystem</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+    <div id="task">
+        <p>01.Write functions for working with shapes in standard Planar coordinate system:</p>
+        <p>- Points are represented by coordinates P(X, Y);</p>
+        <p>- Lines are represented by two points, marking their beginning and ending L(P1(X1,Y1),P2(X2,Y2));</p>
+        <p>- Calculate the distance between two points;</p>
+        <p>- Check if three segment lines can form a triangle;</p>
+    </div> 
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    function CreatePoint(pointName, cordinateX, cordinateY) {
+	        return {
+                Name: pointName,
+	            X: cordinateX,
+	            Y: cordinateY,
+	            toString: function () { return "PointName: " + this.Name + " - X: " + this.X + ", Y: " + this.Y + ";"}
+	        }
+	    }
+
+	    function CreateLine(lineName, startPoint, endPoint) {
+	        return {
+	            Name: lineName,
+	            StartPoint: startPoint,
+	            EndPoint: endPoint,
+	            toString: function () {
+	                return "LineName: " + this.Name
+                        + " - StartPoint: {" + this.StartPoint.toString()
+                        + "}, EndPoint: {" + this.EndPoint.toString() + "};"
+	            }
+	        }
+	    }
+
+	    function DistanceBetweenTwoPoints(pointOne, pointTwo) {
+	        var calculation = Math.sqrt(((pointTwo.X - pointOne.X) * (pointTwo.X - pointOne.X))
+                + ((pointTwo.Y - pointOne.Y) * (pointTwo.Y - pointOne.Y)));
+
+	        return calculation;
+	    }
+
+	    function SizeOfLine(theLine) {
+	        var pointStart = theLine.StartPoint;
+	        var pointEnd = theLine.EndPoint;
+
+	        var calculation = Math.sqrt(((pointEnd.X - pointStart.X) * (pointEnd.X - pointStart.X))
+                + ((pointEnd.Y - pointStart.Y) * (pointEnd.Y - pointStart.Y)));
+
+	        return calculation;
+	    }
+
+	    function CanTheThreeLinesFormATriangle(firstLine, secondLine, thirdLine) {
+            var output = ""
+
+            var firstLineSize = SizeOfLine(firstLine);
+            var secondLineSize = SizeOfLine(secondLine);
+            var thirdLineSize = SizeOfLine(thirdLine);
+
+            if (firstLineSize >= secondLineSize + thirdLineSize || 
+                secondLineSize >= firstLineSize + thirdLineSize ||
+                thirdLineSize >= firstLineSize + secondLineSize) {
+                
+	            output += "The three lines: " + firstLine.Name + ", " + secondLine.Name + ", " + thirdLine.Name
+                    + " can't make a triangle!!!";
+	        }
+	        else {
+	            output += "The three lines: " + firstLine.Name + ", " + secondLine.Name + ", " + thirdLine.Name
+                    + " can make a triangle!!!"
+	        }
+
+	        return output;
+	    }
+
+        //Creating Points
+	    var pointAlpha = CreatePoint("Alpha", 5, 16);
+	    var pointGama = CreatePoint("Gama", 3, 9);
+	    var pointSepta = CreatePoint("Septa", 10, 15);
+
+	    //Print Points
+	    jsConsole.writeLine("Print Points:");
+	    jsConsole.writeLine(pointAlpha.toString());
+	    jsConsole.writeLine(pointGama.toString());
+	    jsConsole.writeLine(pointSepta.toString());
+
+        //Creating Lines
+	    var lineOne = CreateLine("LineOne", pointAlpha, pointGama);
+	    var lineTwo = CreateLine("LineTwo", pointGama, pointSepta);
+	    var lineThree = CreateLine("LineThree", pointAlpha, pointSepta);
+
+	    //Print Lines
+	    jsConsole.writeLine(" ");
+	    jsConsole.writeLine("Print Lines:");
+	    jsConsole.writeLine(lineOne.toString());
+	    jsConsole.writeLine(lineTwo.toString());
+	    jsConsole.writeLine(lineThree.toString());
+
+	    //Distance Calculation
+	    jsConsole.writeLine(" ");
+	    jsConsole.writeLine("Distance Calculation:");
+	    jsConsole.writeLine("The Distance between Alpha and Gama is: " + DistanceBetweenTwoPoints(pointAlpha, pointGama));
+	    jsConsole.writeLine("The Distance between Gama and Septa is: " + DistanceBetweenTwoPoints(pointGama, pointSepta));
+	    jsConsole.writeLine("The Distance between Alpha and Septa is: " + DistanceBetweenTwoPoints(pointAlpha, pointSepta));
+
+	    //CanTheThreeLinesFormATriangle
+	    jsConsole.writeLine(" ");
+	    jsConsole.writeLine("Can the three lines form a triangle:");
+	    jsConsole.writeLine(CanTheThreeLinesFormATriangle(lineOne, lineTwo, lineThree));
+	</script>
+</body>
+</html>

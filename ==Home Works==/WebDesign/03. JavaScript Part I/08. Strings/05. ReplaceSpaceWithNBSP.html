@@ -1,0 +1,36 @@
+﻿<!--05.Write a function that replaces non breaking white-spaces in a text with &nbsp;-->
+<html>
+<head>
+	<title>05. ReplaceSpaceWithNBSP</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+    <div id="task">
+        <p>05.Write a function that replaces non breaking white-spaces in a text with &ampnbsp;</p>
+    </div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    var inputText = "We are living in an yellow submarine.";
+
+	    jsConsole.writeLine("Text: " + inputText);
+
+	    function ReplaceTheSpaces(text) {
+	        var output = "";
+
+	        for (var i = 0; i < text.length; i++) {
+	            if(text[i] === " "){
+	                output += "&nbsp";
+	            }
+	            else {
+	                output += text[i];
+	            }
+	        }
+
+	        return output;
+	    }
+
+	    jsConsole.writeLine("Result: " + ReplaceTheSpaces(inputText));
+    </script>
+</body>
+</html>
