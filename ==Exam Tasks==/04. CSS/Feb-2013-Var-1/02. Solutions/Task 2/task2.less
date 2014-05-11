@@ -1,0 +1,133 @@
+﻿body, div, ul, li, a, table, thead, tbody, tr, th, td {
+    margin:0;
+    padding:0;
+}
+
+.gradient(@colorOne, @firstPercents, @colorTwo, @secondPercents){
+    background: @colorOne;
+    background: -moz-linear-gradient(top,  @colorOne @firstPercents, @colorTwo @secondPercents);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@firstPercents,@colorOne), color-stop(@secondPercents,@colorTwo));
+    background: -webkit-linear-gradient(top,  @colorOne @firstPercents,@colorTwo @secondPercents);
+    background: -o-linear-gradient(top,  @colorOne @firstPercents,@colorTwo @secondPercents);
+    background: -ms-linear-gradient(top,  @colorOne @firstPercents,@colorTwo @secondPercents);
+    background: linear-gradient(to bottom,  @colorOne @firstPercents,@colorTwo @secondPercents);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@colorOne', endColorstr='@colorTwo',GradientType=0 );
+}
+
+body {
+    font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+
+    #wrapper {
+        width: 960px;
+        padding-top: 15px;
+        padding-left: 15px;
+
+        .tab-strip {
+            width: 340px;
+            height: 230px;
+            border: 1px solid black;
+            border-radius: 5px;
+            position: relative;
+            list-style-type: none;
+
+            > li {
+                padding: 5px 15px;
+                float: left;
+                border-right: 1px solid black;
+                border-bottom: 1px solid black;
+                border-radius: 6px;
+                .gradient(#ededed, 0%, #ababab, 100%);
+
+                &:last-of-type{
+                    border-right: none;
+                }
+
+                .tab-btn {
+                    font-size: 1.4em;
+                    color: black;
+                    text-decoration: none;
+                }
+
+                .tab-content {
+                    width: 330px;
+                    display: none;
+                    position: absolute;
+                    left: 20px;
+                    top: 50px;
+
+                    > table{
+                        border: 1px solid black;
+                        border-collapse: collapse;
+
+                        thead{
+                            .gradient(#ababab, 0%, #ededed, 75%);
+                             
+                            tr{
+                                th{
+                                    border-right: 1px solid black;
+                                    text-align:center;
+                                    padding: 5px 15px;
+                                }
+                            }
+                        }
+
+                        tbody{
+                            background-color: #eeeeee;
+
+                            tr{
+                                td{
+                                    border-top: 1px solid black;
+                                    border-right: 1px solid black;
+                                    text-align: left;
+                                    padding: 5px 5px;
+                                }
+                            }
+                        }
+                    }
+
+                    > ul{
+                        > li{
+                            list-style-type: disc;
+
+                            > ul{
+                                list-style-type:lower-latin;
+
+                                > li{
+                                    margin-left: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:hover{
+                    background: #eeeeee;
+                }
+
+                &.current {
+                    border: none;
+                    border-radius: 0;
+                    border-right: 1px solid black;
+                    background: white;
+
+                    &:first-of-type{
+                        border-top-left-radius: 5px;
+                    }
+
+                    &:last-of-type{
+                        border-top-right-radius: 5px;
+                        border: none;
+                    }
+
+                    .tab-btn{
+                        font-weight:bold;
+                    }
+
+                    .tab-content{
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}

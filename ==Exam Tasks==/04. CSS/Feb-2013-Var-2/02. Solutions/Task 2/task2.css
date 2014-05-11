@@ -1,0 +1,103 @@
+body,
+div,
+ul,
+li,
+a,
+img,
+span {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+}
+body #wrapper {
+  width: 960px;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+body #wrapper .notification-list {
+  width: 470px;
+  height: 31px;
+  list-style-type: none;
+  position: relative;
+}
+body #wrapper .notification-list > li {
+  float: left;
+  background: #ababab;
+  background: -moz-linear-gradient(top, #ababab 0%, #dddddd 85%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ababab), color-stop(85%, #dddddd));
+  background: -webkit-linear-gradient(top, #ababab 0%, #dddddd 85%);
+  background: -o-linear-gradient(top, #ababab 0%, #dddddd 85%);
+  background: -ms-linear-gradient(top, #ababab 0%, #dddddd 85%);
+  background: linear-gradient(to bottom, #ababab 0%, #dddddd 85%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@colorOne', endColorstr='@colorTwo', GradientType=0);
+  border: 1px solid black;
+  border-right: none;
+  padding: 5px 15px;
+  padding-bottom: 4px;
+}
+body #wrapper .notification-list > li:first-of-type {
+  border-top-left-radius: 15px;
+}
+body #wrapper .notification-list > li:last-of-type {
+  border-right: 1px solid black;
+  border-top-right-radius: 15px;
+}
+body #wrapper .notification-list > li > a {
+  text-decoration: none;
+  color: #777783;
+}
+body #wrapper .notification-list > li > a img {
+  width: 15px;
+}
+body #wrapper .notification-list > li > a span {
+  font-size: 1.2em;
+  margin-left: 1px;
+}
+body #wrapper .notification-list > li > .content {
+  width: 452px;
+  display: none;
+  position: absolute;
+  border: 1px solid black;
+  border-top: none;
+  left: 0;
+  top: 32px;
+  background: #dddddd;
+  background: -moz-linear-gradient(top, #dddddd 25%, #cccccc 85%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #dddddd), color-stop(85%, #cccccc));
+  background: -webkit-linear-gradient(top, #dddddd 25%, #cccccc 85%);
+  background: -o-linear-gradient(top, #dddddd 25%, #cccccc 85%);
+  background: -ms-linear-gradient(top, #dddddd 25%, #cccccc 85%);
+  background: linear-gradient(to bottom, #dddddd 25%, #cccccc 85%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@colorOne', endColorstr='@colorTwo', GradientType=0);
+  padding: 5px 15px;
+  padding-right: 0px;
+}
+body #wrapper .notification-list > li > .content ul {
+  list-style-type: none;
+}
+body #wrapper .notification-list > li > .content ul li {
+  margin-bottom: 10px;
+}
+body #wrapper .notification-list > li > .content ul li:last-of-type {
+  margin-bottom: 0;
+}
+body #wrapper .notification-list > li > .content ul li a {
+  text-decoration: none;
+  color: #777777;
+}
+body #wrapper .notification-list > li > .content ul li a img {
+  width: 15px;
+  margin-right: 5px;
+}
+body #wrapper .notification-list > li > .content ul li a:hover {
+  text-decoration: underline;
+}
+body #wrapper .notification-list > li:hover {
+  border-bottom: none;
+  height: 22px;
+}
+body #wrapper .notification-list > li:hover .content {
+  display: block;
+}
