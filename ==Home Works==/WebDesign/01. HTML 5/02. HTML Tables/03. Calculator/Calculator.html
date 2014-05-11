@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Calculator Page</title>
+
+    <link type="text/css" href="CalculatorStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <section class="calculator">
+        <ul class="menu-line">
+            <li><span class="underline">V</span>iew</li>
+            <li><span class="underline">E</span>dit</li>
+            <li><span class="underline">H</span>elp</li>
+        </ul>
+        <form class="text-line">
+            <input type="text" value="8854455"/>
+        </form>
+        <div class="binary-field">
+            <ul class="binary-row">
+                <li>0000</li>
+                <li>0000</li>
+                <li>0000</li>
+                <li>0000</li>
+                <li>0000</li>
+                <li>0000</li>
+                <li>0000</li>
+                <li>0000</li>
+            </ul>
+            <ul class="decimal-row-first">
+                <li>63</li>
+                <li>47</li>
+                <li>32</li>
+            </ul>
+            <ul class="binary-row">
+                <li>0000</li>
+                <li>0000</li>
+                <li>0000</li>
+                <li>0000</li>
+                <li>0000</li>
+                <li>0000</li>
+                <li>0000</li>
+                <li>0000</li>
+            </ul>
+            <ul class="decimal-row-second">
+                <li>31</li>
+                <li>15</li>
+                <li>0</li>
+            </ul>
+        </div>
+        <div class="input-section">
+            <div class="radio-input-field">
+                    <form class="base-system-field">
+                        <ul>
+                            <li>
+                                <input type="radio" name="BaseSystem" />
+                                <label>Hex</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="BaseSystem" checked="checked" />
+                                <label>Dec</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="BaseSystem" />
+                                <label>Oct</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="BaseSystem" />
+                                <label>Bin</label>
+                            </li>
+                        </ul>
+                    </form>
+                    <form class="word-type-field">
+                        <ul>
+                            <li>
+                                <input type="radio" name="WordType" checked="checked" />
+                                <label>Qword</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="WordType" />
+                                <label>Dword</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="WordType" />
+                                <label>Word</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="WordType" />
+                                <label>Byte</label>
+                            </li>
+                        </ul>
+                    </form>
+            </div>
+            <form class="ButtonsField">
+                <div>
+                    <button class="button mutted-button" disabled="disabled">&nbsp</button>
+                    <button class="button button-effect">Mod</button>
+                    <button class="button" disabled="disabled">A</button>
+                    <button class="button mutted-button button-effect">MC</button>
+                    <button class="button mutted-button button-effect">MR</button>
+                    <button class="button mutted-button button-effect">MS</button>
+                    <button class="button mutted-button button-effect">M+</button>
+                    <button class="button mutted-button button-effect">M-</button>
+                </div>
+                <div>
+                    <button class="button button-effect">(</button>
+                    <button class="button button-effect">)</button>
+                    <button class="button" disabled="disabled">B</button>
+                    <button class="button button-effect">←</button>
+                    <button class="button button-effect">CE</button>
+                    <button class="button button-effect">C</button>
+                    <button class="button button-effect">±</button>
+                    <button class="button" disabled="disabled">√</button>
+                </div>
+                <div>
+                    <button class="button button-effect">RoL</button>
+                    <button class="button button-effect">RoR</button>
+                    <button class="button" disabled="disabled">C</button>
+                    <button class="button number-button button-effect">7</button>
+                    <button class="button number-button button-effect">8</button>
+                    <button class="button number-button button-effect">9</button>
+                    <button class="button button-effect">/</button>
+                    <button class="button" disabled="disabled">%</button>
+                </div>
+                <div>
+                    <button class="button button-effect">Or</button>
+                    <button class="button button-effect">Xor</button>
+                    <button class="button" disabled="disabled">D</button>
+                    <button class="button number-button button-effect">4</button>
+                    <button class="button number-button button-effect">5</button>
+                    <button class="button number-button button-effect">6</button>
+                    <button class="button button-effect">*</button>
+                    <button class="button" disabled="disabled">1/x</button>
+                </div>
+                <div>
+                    <div class="buttons-in-seven-collums">
+                        <div>
+                            <button class="button button-effect">Lsh</button>
+                            <button class="button button-effect">Rsh</button>
+                            <button class="button" disabled="disabled">E</button>
+                            <button class="button number-button button-effect">1</button>
+                            <button class="button number-button button-effect">2</button>
+                            <button class="button number-button button-effect">3</button>
+                            <button class="button button-effect">-</button>
+                        </div>
+                        <div>
+                            <button class="button button-effect">Not</button>
+                            <button class="button button-effect">And</button>
+                            <button class="button" disabled="disabled">F</button>
+                            <button class="button width-button number-button button-effect">0</button>
+                            <button class="button" disabled="disabled">.</button>
+                            <button class="button button-effect">+</button>
+                        </div>
+                    </div>
+                    <button class="button long-button button-effect">=</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
