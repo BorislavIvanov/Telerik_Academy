@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>TelerikLogo</title>
+    <script src="raphael-min.js"></script>
+    <style>
+        svg{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var workPaper = Raphael(20, 20, 800, 300);
+
+        var telerikSymbol = workPaper.path('M195 130 L212 113 L248 147 L230 165 L213 147 L248 113 L262 130');
+        telerikSymbol.attr({
+            stroke: '#5ce600',
+            'stroke-width': 5
+        });
+
+        var telerikTextOne = workPaper.text(350, 150, 'Telerik');
+        telerikTextOne.attr({
+            'font-size': 55
+        });
+
+        var telerikTextTwo = workPaper.text(365, 190, 'Develop Experiences');
+        telerikTextTwo.attr({
+            'font-size': 18
+        });
+    </script>
+</body>
+</html>
