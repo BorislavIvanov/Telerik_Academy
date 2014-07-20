@@ -1,0 +1,140 @@
+﻿body {
+    background-color: orange;
+}
+
+body h1 {
+    text-align: center;
+}
+
+/*GameScreen*/
+body #gameScreen {
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+body #gameScreen h2 {
+    color: white;
+    text-align: center;
+}
+
+body #gameScreen #playerInputField {
+    width: 200px;
+    display: block;
+    color: orange;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px auto;
+}
+
+body #gameScreen #resultOfTheTurn {
+    height: 25px;
+    color: orange;
+    text-align: center;
+    font-size: 20px;
+}
+
+body #gameScreen #inGameSubmitButton {
+    display: block;
+    background-color: black;
+    border: 1px solid orange;
+    color: orange;
+    font-size: 20px;
+    margin: 1px auto;
+}
+
+body #gameScreen #inGameSubmitButton:hover {
+    color: white;
+}
+/*GameScreen - END*/
+
+/*WinScreen*/
+body #winScreen{
+    display:none;
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+body #winScreen h2{
+    text-align: center;
+    font-size: 50px;
+    color: green;
+}
+
+body #winScreen #endResultField{
+    text-align: center;
+    height: 23px;
+}
+
+body #winScreen label{
+    margin-left: 180px;
+}
+
+body #winScreen #gameScoresSubmitButton {
+    background-color: black;
+    border: 1px solid orange;
+    color: orange;
+}
+
+body #winScreen #gameScoresSubmitButton:hover {
+    color: white;
+}
+/*WinScreen - END*/
+
+/*ScoresScreen*/
+body #scoresScreen{
+    display: none;
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+body #scoresScreen h2{
+    color: white;
+    text-align: center;
+}
+
+body #scoresScreen #scoresList{
+    height: 300px;
+    text-align: center;
+    list-style: none;
+    overflow: auto;
+    padding: 0px;
+}
+
+body #scoresScreen #scoresList li{
+    color: white;
+}
+
+body #scoresScreen #buttonStartNewGame{
+    display: block;
+    background-color: black;
+    border: 1px solid orange;
+    color: orange;
+    margin: 0 auto;
+}
+
+body #scoresScreen #buttonStartNewGame:hover{
+    color: white;
+}
+/*ScoresScreen - END*/
+
+body #resetAllScoresButton  {
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    display: block;
+    background-color: black;
+    border: 1px solid orange;
+    color: orange;
+    font-size: 30px;
+    margin: 1px auto;
+}
+
+body #resetAllScoresButton:hover {
+    color: white;
+}
