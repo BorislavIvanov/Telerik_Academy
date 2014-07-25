@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="jquery-2.1.1.min.js"></script>
+</head>
+<body>
+    <script src="StudentManagingSystem.js"></script>
+    <script>
+        StudentManagingSystem.addStudent('http://localhost:3000/students/', 'AAA', 12);
+        StudentManagingSystem.addStudent('http://localhost:3000/students/', 'BBB', 11);
+        StudentManagingSystem.addStudent('http://localhost:3000/students/', 'CCC', 10);
+        StudentManagingSystem.addStudent('http://localhost:3000/students/', 'DDD', 9);
+        StudentManagingSystem.addStudent('http://localhost:3000/students/', 'EEE', 8);
+        StudentManagingSystem.deleteStudent('http://localhost:3000/students/', 3);
+        StudentManagingSystem.showAllStudents('http://localhost:3000/students/');
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+D:\#Telerik#\12. JavaScript Applications\Домашни\06. Достъп до отдалечени данни\01. ModuleForHTTPRequests\bin\_01.ModuleForHTTPRequests.dll
+D:\#Telerik#\12. JavaScript Applications\Домашни\06. Достъп до отдалечени данни\01. ModuleForHTTPRequests\bin\_01.ModuleForHTTPRequests.pdb
+D:\#Telerik#\12. JavaScript Applications\Домашни\06. Достъп до отдалечени данни\01. ModuleForHTTPRequests\obj\Debug\01. ModuleForHTTPRequests.csprojResolveAssemblyReference.cache
+D:\#Telerik#\12. JavaScript Applications\Домашни\06. Достъп до отдалечени данни\01. ModuleForHTTPRequests\obj\Debug\_01.ModuleForHTTPRequests.dll
+D:\#Telerik#\12. JavaScript Applications\Домашни\06. Достъп до отдалечени данни\01. ModuleForHTTPRequests\obj\Debug\_01.ModuleForHTTPRequests.pdb
