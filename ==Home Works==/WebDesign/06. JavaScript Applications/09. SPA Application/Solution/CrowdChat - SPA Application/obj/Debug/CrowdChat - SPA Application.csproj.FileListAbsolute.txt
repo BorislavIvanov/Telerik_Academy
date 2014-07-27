@@ -1,0 +1,10 @@
+D:\#Telerik#\12. JavaScript Applications\Домашни\09. SPA Application\CrowdChat - SPA Application\bin\CrowdChat - SPA Application.dll
+D:\#Telerik#\12. JavaScript Applications\Домашни\09. SPA Application\CrowdChat - SPA Application\bin\CrowdChat - SPA Application.pdb
+D:\#Telerik#\12. JavaScript Applications\Домашни\09. SPA Application\CrowdChat - SPA Application\obj\Debug\CrowdChat - SPA Application.csprojResolveAssemblyReference.cache
+D:\#Telerik#\12. JavaScript Applications\Домашни\09. SPA Application\CrowdChat - SPA Application\obj\Debug\CrowdChat - SPA Application.dll
+D:\#Telerik#\12. JavaScript Applications\Домашни\09. SPA Application\CrowdChat - SPA Application\obj\Debug\CrowdChat - SPA Application.pdb
+C:\Users\BoBBy\Desktop\HW_Borislav.A.Ivanov_SPA-prilojeniya-i-arhitektura-na-JavaScri_2014-07-27_15-16\09. SPA Application\CrowdChat - SPA Application\bin\CrowdChat - SPA Application.dll
+C:\Users\BoBBy\Desktop\HW_Borislav.A.Ivanov_SPA-prilojeniya-i-arhitektura-na-JavaScri_2014-07-27_15-16\09. SPA Application\CrowdChat - SPA Application\bin\CrowdChat - SPA Application.pdb
+C:\Users\BoBBy\Desktop\HW_Borislav.A.Ivanov_SPA-prilojeniya-i-arhitektura-na-JavaScri_2014-07-27_15-16\09. SPA Application\CrowdChat - SPA Application\obj\Debug\CrowdChat - SPA Application.csprojResolveAssemblyReference.cache
+C:\Users\BoBBy\Desktop\HW_Borislav.A.Ivanov_SPA-prilojeniya-i-arhitektura-na-JavaScri_2014-07-27_15-16\09. SPA Application\CrowdChat - SPA Application\obj\Debug\CrowdChat - SPA Application.dll
+C:\Users\BoBBy\Desktop\HW_Borislav.A.Ivanov_SPA-prilojeniya-i-arhitektura-na-JavaScri_2014-07-27_15-16\09. SPA Application\CrowdChat - SPA Application\obj\Debug\CrowdChat - SPA Application.pdb
