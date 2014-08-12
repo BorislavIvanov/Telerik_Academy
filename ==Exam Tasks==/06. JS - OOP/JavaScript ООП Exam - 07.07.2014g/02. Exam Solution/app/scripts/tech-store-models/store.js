@@ -108,36 +108,36 @@ define(['tech-store-models/item'], function (Item) {
             return arrayOfAllItemsOfGivenType;
         }
 
-        Store.prototype.filterItemsByPrice = function (options) {
-            min = typeof min !== 'undefined' ? a : 0;
-            max = typeof max !== 'undefined' ? b : Number.MAX_VALUE;
+        //Store.prototype.filterItemsByPrice = function (options) {
+        //    min = typeof min !== 'undefined' ? a : 0;
+        //    max = typeof max !== 'undefined' ? b : Number.MAX_VALUE;
 
-            var arrayOfItemsByGivenPrice = [];
+        //    var arrayOfItemsByGivenPrice = [];
 
-            for (var i = 0; i < this.arrayOfItems.length; i++) {
-                if (this.arrayOfItems[i].price >= min && this.arrayOfItems[i].price <= max) {
-                    arrayOfItemsByGivenPrice.push(this.arrayOfItems[i]);
-                }
-            }
+        //    for (var i = 0; i < this.arrayOfItems.length; i++) {
+        //        if (this.arrayOfItems[i].price >= min && this.arrayOfItems[i].price <= max) {
+        //            arrayOfItemsByGivenPrice.push(this.arrayOfItems[i]);
+        //        }
+        //    }
 
-            function dynamicSortForNumbers(property) {
-                var sortOrder = 1;
-                if (property[0] === "-") {
-                    sortOrder = -1;
-                    property = property.substr(1);
-                }
-                return function (a, b) {
-                    var result = (a[property] < b[property]) ? -1 :
-                        (a[property] > b[property]) ? 1 : 0;
-                    return result * sortOrder;
-                }
-            }
+        //    function dynamicSortForNumbers(property) {
+        //        var sortOrder = 1;
+        //        if (property[0] === "-") {
+        //            sortOrder = -1;
+        //            property = property.substr(1);
+        //        }
+        //        return function (a, b) {
+        //            var result = (a[property] < b[property]) ? -1 :
+        //                (a[property] > b[property]) ? 1 : 0;
+        //            return result * sortOrder;
+        //        }
+        //    }
 
-            arrayOfItemsByGivenPrice.sort(dynamicSortForNumbers("price"));
+        //    arrayOfItemsByGivenPrice.sort(dynamicSortForNumbers("price"));
 
-            return arrayOfItemsByGivenPrice;
+        //    return arrayOfItemsByGivenPrice;
 
-        }
+        //}
 
         Store.prototype.countItemsByType = function () {
             var accessory = 0;
