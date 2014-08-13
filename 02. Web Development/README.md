@@ -7,22 +7,21 @@
 * **04. Semantic Web** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/01.%20HTML%205/04.%20Semantic%20Web)
 
 **CSS 3**
-* **01. Arrays** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/02.%20C%23%20Part%20II/01.%20Arrays)
-* **02. Multidimensional Arrays** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/02.%20C%23%20Part%20II/02.%20Multidimensional%20Arrays)
-* **03. Methods** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/02.%20C%23%20Part%20II/03.%20Methods)
-* **04. Numeral Systems** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/02.%20C%23%20Part%20II/04.%20Numeral%20Systems)
-* **05. Using Classes and Objects** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/02.%20C%23%20Part%20II/05.%20Using%20Classes%20and%20Objects)
-* **06. Exception Handling** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/02.%20C%23%20Part%20II/06.%20Exception%20Handling)
-* **07. Text Files** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/02.%20C%23%20Part%20II/07.%20Text%20Files)
-* **08. Strings and Text Processing** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/02.%20C%23%20Part%20II/08.%20Strings%20and%20Text%20Processing)
+* **01. CSS Overview** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/02.%20CSS%203/01.%20CSS%20Overview)
+* **02. CSS Presentation** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/02.%20CSS%203/02.%20CSS%20Presentation)
+* **03. CSS Layout** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/02.%20CSS%203/03.%20CSS%20Layout)
+* **04. CSS SASS** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/02.%20CSS%203/04.%20CSS%20SASS)
+* **05. CSS LESS** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/02.%20CSS%203/05.%20CSS%20LESS)
 
 **JavaScript Part I**
-* **01. Defining Classes – Part I** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP/01.%20Defining%20Classes%20%E2%80%93%20Part%20I)
-* **02. Defining Classes – Part II** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP/02.%20Defining%20Classes%20%E2%80%93%20Part%20II)
-* **03. Extension Methods, Lambda Expressions and LINQ** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP/03.%20Extension%20Methods%2C%20Lambda%20Expressions%20and%20LINQ)
-* **04. Object-Oriented Programming Fundamental Principles – Part I** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP/04.%20Object-Oriented%20Programming%20Fundamental%20Principles%20%E2%80%93%20Part%20I)
-* **05. Object-Oriented Programming Fundamental Principles – Part II** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP/05.%20Object-Oriented%20Programming%20Fundamental%20Principles%20%E2%80%93%20Part%20II)
-* **06. Common Type System** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP/06.%20Common%20Type%20System)
+* **01. Data Types and Variables** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/03.%20JavaScript%20Part%20I/01.%20Data%20Types%20and%20Variables)
+* **02. Operators and Expressions** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/03.%20JavaScript%20Part%20I/02.%20Operators%20and%20Expressions)
+* **03. Conditional Statements** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/03.%20JavaScript%20Part%20I/03.%20Conditional%20Statements)
+* **04. Loops** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/03.%20JavaScript%20Part%20I/04.%20Loops)
+* **05. Arrays** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/03.%20JavaScript%20Part%20I/05.%20Arrays)
+* **06. Functions** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/03.%20JavaScript%20Part%20I/06.%20Functions)
+* **07. Using Objects** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/03.%20JavaScript%20Part%20I/07.%20Using%20Objects)
+* **08. Strings** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/03.%20JavaScript%20Part%20I/08.%20Strings)
 
 **JavaScript Part II (UI & DOM)**
 * **01. Code Formatting** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/04.%20C%23%20High%20Quality%20Code/01.%20Code%20Formatting)
