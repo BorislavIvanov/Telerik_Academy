@@ -4,3 +4,4 @@
 
 >**Programming**
 * **C# Part One** - [Link](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/%3D%3DHome%20Works%3D%3D/Programming/01.%20C%23%20Part%20I)
+* **C# Part Two** - [Link](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/%3D%3DHome%20Works%3D%3D/Programming/02.%20C%23%20Part%20II)
