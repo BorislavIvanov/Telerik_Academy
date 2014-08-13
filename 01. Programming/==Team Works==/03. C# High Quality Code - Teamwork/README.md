@@ -17,4 +17,4 @@ The project consists of one or more **source code files** and sometimes contains
 ##Detailed Assignment Description
 
 In order to ensure the high quality of the assigned project you need to fulfill the following tasks:
-1. Perform refactoring of the entire project (its directory structure, project files, source code, classes, interfaces, methods, properties, fields and other class members and program members and its programming logic) in order to make the code “high quality” according to the best practices introduced in the course “High-Quality Programming Code”. The obtained refactored code should conform to the following characteristics:
+* **Perform refactoring of the entire project** (its directory structure, project files, source code, classes, interfaces, methods, properties, fields and other class members and program members and its programming logic) in order to make the code “high quality” according to the best practices introduced in the course “High-Quality Programming Code”. The obtained refactored code should conform to the following characteristics:
