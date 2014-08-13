@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>03.SelectTheBackgroundColor</title>
+    <style>
+        body{
+            background: #6e9c3a;
+        }
+    </style>
+</head>
+<body>
+    <input id="ColorSelector" type="color"/>
+    <button onclick="OnButtonClick()">Set The Color</button>
+
+    <script type="text/javascript">
+        function OnButtonClick() {
+            var pickedColor = document.getElementById('ColorSelector').value;
+
+            document.body.style.background = pickedColor;
+        }
+    </script>
+</body>
+</html>

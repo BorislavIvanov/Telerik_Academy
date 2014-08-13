@@ -1,0 +1,35 @@
+﻿<!--10.Write a program that extracts from a given text all palindromes, e.g. "ABBA", "lamal", "exe".-->
+<html>
+<head>
+	<title>10. ExtractingThePalindromes</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+    <div id="task">
+        <p>10.Write a program that extracts from a given text all palindromes, e.g. "ABBA", "lamal", "exe".</p>
+    </div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    function getPalindromes(input) {
+	        var regex = /\b\w+\b/g;
+
+	        var matches = [];
+	        var match;
+	        while (match = regex.exec(input)) {
+
+	            if (match[0] === match[0].split("").reverse().join("")) {
+	                matches.push(match[0]);
+	            }
+	        }
+
+	        return matches;
+	    }
+
+	    var inputText = "Adwavi eawele artra mm mlm awdawdiunaw auwgdbia awiuygbda adwuiaghg."
+
+	    jsConsole.writeLine("Text: " + inputText + "<br/>");
+	    jsConsole.writeLine("Palindromes: " + getPalindromes(inputText));
+    </script>
+</body>
+</html>

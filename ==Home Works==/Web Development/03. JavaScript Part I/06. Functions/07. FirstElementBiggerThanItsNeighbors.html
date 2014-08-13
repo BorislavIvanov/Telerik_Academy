@@ -1,0 +1,52 @@
+﻿<!--07.Write a Function that returns the index of the first element in array that is bigger than its neighbors, or -1, if there’s no such element.
+Use the function from the previous exercise.-->
+<html>
+<head>
+	<title>07. FirstElementBiggerThanItsNeighbors</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+        <div id="input">
+            <form>
+                <p>The array is - [5, 5, 3, 4, 5, 2, 1, 5, 6, 3, 9, 3, 2, 1, 6, 4, 2, 4, 3]</p>
+                <a onclick="OnButtonClick()">Result</a>
+            </form>
+        </div>
+	</div>
+    <div id="task">
+        <p>Task 07.Write a Function that returns the index of the first element in array that is bigger than its neighbors, or -1, if there’s no such element.
+        Use the function from the previous exercise.</p>
+    </div> 
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    function OnButtonClick() {
+	        var arrayOfNumbers = [5, 5, 3, 4, 5, 2, 1, 5, 6, 3, 9, 3, 2, 1, 6, 4, 2, 4, 3];
+
+	        jsConsole.writeLine("Index: " + FirstCellBiggerThanNeighbors(arrayOfNumbers));
+
+	        function FirstCellBiggerThanNeighbors(array)
+	        {
+	            var theIndex = undefined;
+
+	            for (var i = 1; i < arrayOfNumbers.length - 1; i++)
+	            {
+	                if (arrayOfNumbers[i] > arrayOfNumbers[i - 1] &&
+                    arrayOfNumbers[i] > arrayOfNumbers[i + 1])
+	                {
+	                    theIndex = i;
+	                    break;
+	                }
+	            }
+
+	            if (theIndex != undefined) {
+	                return theIndex;
+	            }
+	            else {
+	                return -1;
+	            }
+	        }
+	    }
+        </script>
+</body>
+</html>

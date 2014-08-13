@@ -1,0 +1,56 @@
+﻿body {
+    font-family: Arial;
+    background-color: #595959;
+}
+
+th {
+    height: 40px;
+    font-size: 25px;
+    text-align: left;
+    color: #afb5ba;
+    font-weight: normal;
+}
+
+td {
+    height: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tbody tr td:first-child {
+    width: 150px;
+    font-style: italic;
+    color: white;
+}
+
+#name-field, #email-field, #link-field a {
+    color: #e8dea0;
+}
+
+#name-circle {
+    width: 13px;
+    height: 13px;
+    border-radius: 5px;
+    background-color: green;
+    display:inline-block;
+    margin-right:5px;
+}
+
+#link-field a {
+    text-decoration: none;
+}
+
+#support-field {
+    color: #ed0214;
+    vertical-align: top;
+}
+
+#response-time-field, #last-location-field {
+    color: #b7b2b0;
+}
+
+#status-field {
+    color: #e06a2c;
+}

@@ -1,0 +1,63 @@
+﻿<!--07.Write a program that finds the index of given element in a sorted array of integers by using the 
+binary search algorithm (find it in Wikipedia)-->
+<html>
+<head>
+	<title>07. BinarySearchAlgorithm</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+        <div id="input">
+            <form>
+                <p>Enter the Array Values (separated with space)</p>
+                <label for="ArrayInput">CharrArray:</label>
+                <input type="text" id="ArrayInput"/><br />
+                <p>Please enter the number who you want to know</p>
+                <p>(The number must be from numbers in Array):</p>
+                <label for="TheNumber">The Number:</label>
+                <input type="text" id="TheNumber"/><br /><br />
+                <a onclick="OnButtonClick()">Result</a>
+            </form>
+        </div>
+	</div>
+    <div id="task">
+        <p>Task 07.Write a program that finds the index of given element in a sorted array of integers by using the 
+        binary search algorithm (find it in Wikipedia)</p>
+    </div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    function OnButtonClick() {
+	        var inputArray = jsConsole.read("#ArrayInput");
+
+	        var theArray = inputArray.split(" ");
+	        var theNumber = jsConsole.readInteger("#TheNumber");
+
+	        if (isNaN(theNumber)) {
+	            jsConsole.writeLine("Invalid input! The input can't be NaN. Please try again!");
+	        }
+	        else {
+	            var startOfSearch = 0;
+	            var endOfSearch = theArray.length - 1;
+	            var half;
+
+	            while (startOfSearch <= endOfSearch) {
+	                half = parseInt((startOfSearch + endOfSearch) / 2);
+
+	                if (theArray[half] < theNumber) {
+	                    startOfSearch = half + 1;
+	                }
+
+	                if (theArray[half] > theNumber) {
+	                    endOfSearch = half - 1;
+	                }
+
+	                if (theArray[half] == theNumber) {
+	                    jsConsole.writeLine("Index of the given element is: " + half);
+	                    break;
+	                }
+	            }
+	        }
+        }
+	</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+﻿<!--05.Write a function that finds the youngest person in a given array of persons and prints his/hers full name
+- Each person have properties firstname, lastname and age-->
+<html>
+<head>
+	<title>05. YoungestPersonInArray</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+    <div id="task">
+        <p>05.Write a function that finds the youngest person in a given array of persons and prints his/hers full name</p>
+        <p>- Each person have properties firstname, lastname and age</p>
+    </div> 
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    var persons = [{ FirstName: "Kiril", LastName: "Jekov", Age: 54 },
+            { FirstName: "Elena", LastName: "Nikolova", Age: 21 },
+            { FirstName: "Dobromir", LastName: "Borisov", Age: 34 },
+            { FirstName: "Borislav", LastName: "Shterev", Age: 22 }];
+
+	    function findTheYoungerPerson(arrayOfPersons) {
+	        var thePerson;
+
+	        if (arrayOfPersons === undefined || arrayOfPersons === null) {
+	            console.error("Incorrect Array Of Persons!!!");
+	        }
+	        else {
+	            for (var person = 0; person < arrayOfPersons.length; person++) {
+	                if (person == 0) {
+	                    thePerson = arrayOfPersons[person];
+	                }
+	                else {
+	                    if (arrayOfPersons[person].Age < thePerson.Age) {
+	                        thePerson = arrayOfPersons[person];
+	                    }
+	                }
+	            }
+	        }
+
+	        return thePerson;
+	    }
+
+	    var youngerPerson = findTheYoungerPerson(persons);
+
+	    jsConsole.writeLine(youngerPerson.FirstName + " " + youngerPerson.LastName + " is younger person in the array!!!");
+	</script>
+</body>
+</html>

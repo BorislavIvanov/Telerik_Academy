@@ -1,0 +1,63 @@
+﻿<!--06.Write a program that finds the most frequent number in an array. 
+Example: {4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3} -> 4 (5 times)-->
+<html>
+<head>
+	<title>06. MostFrequentNumber</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+        <div id="input">
+            <form>
+                <p>Enter the Array Values (separated with space)</p>
+                <label for="ArrayInput">CharrArray:</label>
+                <input type="text" id="ArrayInput"/><br /><br />
+                <a onclick="OnButtonClick()">Result</a>
+            </form>
+        </div>
+	</div>
+    <div id="task">
+        <p>Task 06.Write a program that finds the most frequent number in an array. 
+        Example: {4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3} -> 4 (5 times)</p>
+    </div> 
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    function OnButtonClick() {
+	        var input = jsConsole.read("#ArrayInput");
+	        var theArray = input.split(" ");
+	        var classificationArray = new Array(10);
+
+	        for (var c = 0; c < 10; c++) {
+	            classificationArray[c] = 0;
+	        }
+
+	        for (var i = 0; i < theArray.length; i++) {
+	            classificationArray[theArray[i]] += 1;
+	        }
+
+	        var bestNumber = 0;
+	        var numCount = 0;
+
+	        for (var f = 0; f < 10; f++) {
+	            if (classificationArray[f] > numCount) {
+	                bestNumber = f;
+	                numCount = classificationArray[f];
+	            }
+	            else if (classificationArray[f] == numCount && f > bestNumber) {
+	                bestNumber = f;
+	                numCount = classificationArray[f];
+	            }
+	        }
+
+	        jsConsole.write(bestNumber + "(" + numCount);
+
+	        if (numCount == 1) {
+	            jsConsole.writeLine(" time)");
+	        }
+	        else if (numCount > 1) {
+	            jsConsole.writeLine(" times)");
+	        }
+	    }
+	</script>
+</body>
+</html>

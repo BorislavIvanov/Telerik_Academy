@@ -1,0 +1,142 @@
+﻿/*Reset*/
+body, nav, aside, ul, li, h3{
+    margin:0;
+    padding:0;
+}
+/*Reset - END*/
+
+body {
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-family:Verdana;
+    padding:5px;
+}
+    nav {
+        float:left;
+        padding-top:10px;
+        margin-right:20px;
+    }
+        ul{
+            list-style:none;
+        }
+            a{
+                text-decoration:none;
+            }
+    article{
+        background-color:white;
+        overflow: hidden;
+        border: 1px solid gray;
+        padding:5px 5px 30px 5px;
+        width: 600px;
+        display:block;
+        float: left;
+        margin-right:3px;
+    }
+        hr{
+            background-color:gray;
+            height:2px;
+        }
+    aside{
+        width: 200px;/*200*/
+        /*display:block;*/
+        text-align:center;
+        float:left;
+    }
+
+/*Classes*/
+    /*Nav*/
+    .home-icon{
+        width:20px;
+        float:left;
+        margin-right:3px;
+    }
+    .h3-home {
+        font-size:15px;
+        vertical-align:bottom;
+        padding-top:5px;
+    }
+    .master-list{
+        margin-top: 10px;
+    }
+        .master-list > a{
+            color: red;
+            font-size:12px;
+        }
+    .sublist > li > a{
+        color: black;
+        font-size:12px;
+    }
+    /*Nav - END*/
+    /*Section*/
+    .section-buttons{
+        width: 110px;
+        background:none;
+        border: 1px solid black;
+    }
+    .section-article > h2{
+        color:white;
+        background-color:gray;
+        font-size:15px;
+        padding-left: 5px;
+    }
+    .section-article > p{
+        font-size:14px;
+    }
+    .section-article > a{
+            color:red;
+            font-size:14px;
+            text-decoration: underline;
+            margin-bottom:10px;
+    }
+    .css-image{
+        width:110px;
+        float:left;
+        margin-right:10px;
+    }
+    .first-section-article{
+        height: 160px;
+    }
+        .first-section-article > p{
+            display: inline;
+        }
+    /*Section - END*/
+    /*Aside*/
+    .aside-article-with-h{
+        background-color:white;
+        border: 1px solid gray;
+        padding-bottom: 5px;
+        margin-bottom:2px;
+    }
+        .aside-article-with-h > h2{
+            margin-top:0;
+            margin-bottom: 5px;
+            color:white;
+            background-color:gray;
+            font-size:15px;
+            padding-left: 5px;
+        }
+        .aside-article-with-h > a{
+                color:red;
+                font-size:14px;
+                text-decoration: underline;
+                margin-bottom:10px;
+        }
+    .aside-article-normal{
+        background-color:white;
+        border: 1px solid gray;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom:2px;
+    }
+        .aside-article-normal > a{
+                color:red;
+                font-size:14px;
+                text-decoration: underline;
+                margin-bottom:10px;
+        }
+    .search-box{
+        width:120px;
+        border: 1px solid gray;
+    }
+    /*Aside - END*/
+/*Classes - END*/

@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Color Changer</title>
+    <style>
+        body{
+            background-color: rgb(255, 128, 0);
+        }
+    </style>
+</head>
+<body>
+    <input id="inputColor" type="color" />
+    <button id="colorChanger">Change The Color!!! :)</button>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script>
+        $('#colorChanger').on('click', function () {
+            $('body').css("background-color", $('#inputColor').val());
+        })
+    </script>
+</body>
+</html>

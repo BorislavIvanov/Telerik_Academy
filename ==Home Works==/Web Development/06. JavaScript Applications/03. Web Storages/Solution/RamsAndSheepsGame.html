@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Rams And Sheeps</title>
+    <link href="RamsAndSheepsStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Game - Rams And Sheeps</h1>
+    <div id="gameScreen">
+        <h2>Enter four digit number :)</h2>
+        <input id="playerInputField" type="text" maxlength="4" />
+        <p id="resultOfTheTurn"></p>
+        <button id="inGameSubmitButton">Submit</button>
+    </div>
+    <div id="winScreen">
+        <h2>Winner!!!</h2>
+        <h3 id="endResultField"></h3>
+        <label for="inputPlayerName">Your Name: </label>
+        <input type="text" id="inputPlayerName" />
+        <button id="gameScoresSubmitButton">Submit Your Scores</button>
+    </div>
+    <div id="scoresScreen">
+        <h2>Scores List</h2>
+        <ul id="scoresList"></ul>
+        <button id="buttonStartNewGame">Start New Game</button>
+    </div>
+    <button id="resetAllScoresButton">Reset All Scores</button>
+    <script src="RamsAndSheepsScript.js"></script>
+</body>
+</html>

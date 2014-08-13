@@ -1,0 +1,36 @@
+body, nav, ul, li, img {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: black; }
+  body form nav {
+    width: 890px;
+    height: 150px;
+    margin: auto; }
+    body form nav ul {
+      list-style: none;
+      margin: auto; }
+      body form nav ul li {
+        float: left;
+        margin: 0px 10px; }
+        body form nav ul li img {
+          height: 150px;
+          border: 1px solid black;
+          opacity: 0.8; }
+          body form nav ul li img:hover {
+            height: 144px;
+            width: 195px;
+            border: 3px solid black;
+            opacity: 1; }
+  body form section {
+    width: 500px;
+    margin: 0px auto; }
+    body form section input[type=radio] {
+      display: none; }
+      body form section input[type=radio]:checked + img {
+        width: 500px;
+        display: block; }
+    body form section img {
+      display: none; }
+

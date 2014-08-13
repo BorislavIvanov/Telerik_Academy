@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script src="UnderscoreJS%20v1.6.0.js"></script>
+    <script>
+        var animals = [
+        { type: 'Gray Wolf', habitat: 'FOREST ANIMALS', legs: 4 },
+        { type: 'African Bush Elephant', habitat: 'GRASSLAND ANIMALS', legs: 4 },
+        { type: 'American Bison', habitat: 'GRASSLAND ANIMALS', legs: 4 },
+        { type: 'Great White Shark', habitat: 'ANIMALS OF THE OCEANS', legs: 0 },
+        { type: 'Bobolink', habitat: 'GRASSLAND ANIMALS', legs: 2 },
+        { type: 'Great Grey Owl', habitat: 'FOREST ANIMALS', legs: 2 },
+        { type: 'Sea Otter', habitat: 'ANIMALS OF THE OCEANS', legs: 4 },
+        { type: 'Jaguar', habitat: 'FOREST ANIMALS', legs: 4 },
+        ];
+
+        var groupedAnimals = _.groupBy(animals, 'habitat');
+        
+        for (var group in groupedAnimals) {
+            var sortedAnimalsByLegs = _.sortBy(groupedAnimals[group], 'legs');
+            groupedAnimals[group] = sortedAnimalsByLegs;
+        }
+
+        console.log(groupedAnimals);
+    </script>
+</body>
+</html>

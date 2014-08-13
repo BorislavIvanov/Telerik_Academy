@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>SuperMario</title>
+    <style>
+        div{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="background"></div>
+    <div id="container"></div>
+    <script src="Scripts/raphael-min.js"></script>
+    <script src="Scripts/kinetic-v5.1.0.min.js"></script>
+    <script src="Scripts/SuperMario.js"></script>
+    <script>
+        // SVG
+        var paper = Raphael('background', 1000, 600);
+        paper.image("resources/5185.jpg", 0, 0, 1000, 600);
+
+        // Canvas
+        var drawField = new Kinetic.Stage({
+            container: 'container',
+            width: 1000,
+            height: 600
+        });
+
+        var layerOne = new Kinetic.Layer();
+        var newestMario = new SuperMario(500, 340, layerOne, drawField);
+    </script>
+</body>
+</html>

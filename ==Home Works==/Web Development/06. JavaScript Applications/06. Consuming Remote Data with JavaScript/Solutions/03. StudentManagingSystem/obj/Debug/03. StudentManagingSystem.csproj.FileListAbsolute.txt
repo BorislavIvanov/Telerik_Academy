@@ -1,0 +1,5 @@
+D:\#Telerik#\12. JavaScript Applications\Домашни\06. Достъп до отдалечени данни\03. StudentManagingSystem\bin\_03.StudentManagingSystem.dll
+D:\#Telerik#\12. JavaScript Applications\Домашни\06. Достъп до отдалечени данни\03. StudentManagingSystem\bin\_03.StudentManagingSystem.pdb
+D:\#Telerik#\12. JavaScript Applications\Домашни\06. Достъп до отдалечени данни\03. StudentManagingSystem\obj\Debug\03. StudentManagingSystem.csprojResolveAssemblyReference.cache
+D:\#Telerik#\12. JavaScript Applications\Домашни\06. Достъп до отдалечени данни\03. StudentManagingSystem\obj\Debug\_03.StudentManagingSystem.dll
+D:\#Telerik#\12. JavaScript Applications\Домашни\06. Достъп до отдалечени данни\03. StudentManagingSystem\obj\Debug\_03.StudentManagingSystem.pdb

@@ -1,0 +1,55 @@
+﻿h1, section, article{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Verdana;
+}
+
+h1{
+    font-weight:normal;
+    font-size:14px;
+}
+
+article{
+    width:480px;
+    padding:15px;
+    border:1px solid gray;
+    background:#eeeeee;
+}
+
+section{
+    border: 1px solid #a6a6a6;
+    padding: 15px;
+    background:white;
+    margin-top:30px;
+    margin-bottom:10px;
+    overflow: hidden;
+}
+
+img{
+    float:left;
+    margin-right: 15px;
+    border: 1px solid #a6a6a6;
+}
+
+p{
+    margin:0;
+    font-size: 14px;
+}
+
+button{
+        background: url('Resources/Btn.png');
+        height: 24px;
+        border-color: #800;
+        color: white;
+        padding-left: 21px;
+        padding-right: 12px;
+        font-size: 0.9em;
+        margin-top: 10px;
+        float:right;
+}
+button:hover {
+    cursor: pointer;
+}

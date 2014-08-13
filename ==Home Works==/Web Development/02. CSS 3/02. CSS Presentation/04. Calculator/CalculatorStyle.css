@@ -1,0 +1,249 @@
+﻿/*Reset*/
+ul, li, button, input{
+    margin:0;
+    padding:0;
+}
+/*Reset-End*/
+
+li{
+    list-style:none;
+}
+
+body{
+    font-family: Segoe UI;
+}
+
+/*Classes*/
+
+    /*Underline Setter*/
+    .underline{
+        text-decoration:underline;
+    }
+    /*Underline Setter-End*/
+
+    /*Calculator Body*/
+    .calculator{
+        width:390px;
+        height:330px;
+        margin: 2px auto;
+        padding:10px 12px 10px;
+        border:1px solid gray;
+        background: -webkit-linear-gradient(#edf4fd 0%, #dbe6f2 34%, #d9e4f1 100%);
+        background:    -moz-linear-gradient(#edf4fd 0%, #dbe6f2 34%, #d9e4f1 100%);
+        background:      -o-linear-gradient(#edf4fd 0%, #dbe6f2 34%, #d9e4f1 100%);
+        background:         linear-gradient(#edf4fd 0%, #dbe6f2 34%, #d9e4f1 100%);
+    }
+    /*Calculator Body-End*/
+
+    /*Menu Line*/
+    .menu-line{
+        overflow:hidden;
+        padding:1px;
+        margin:-10px -11px 11px;
+        background: -webkit-linear-gradient(#e9e9e9 0%, #f0f0f0 34%, #f7f7f7 100%);
+        background:    -moz-linear-gradient(#e9e9e9 0%, #f0f0f0 34%, #f7f7f7 100%);
+        background:      -o-linear-gradient(#e9e9e9 0%, #f0f0f0 34%, #f7f7f7 100%);
+        background:         linear-gradient(#e9e9e9 0%, #f0f0f0 34%, #f7f7f7 100%);
+
+        border-bottom:1px solid #8898ab;
+    }
+        .menu-line > li{
+            padding:1px 5px;
+            font-size:11px;
+            float:left;
+        }
+    /*Menu Line-End*/
+
+    /*Text Line*/
+    .text-line{
+        border: 1px solid #8898ab;
+        border-radius:3px;
+        padding:15px 5px 5px;
+
+        box-shadow: inset 0 0 0 1px white;
+
+        background: -webkit-linear-gradient(#ebf2fc 0%, #ffffff 100%);
+        background:    -moz-linear-gradient(#ebf2fc 0%, #ffffff 100%);
+        background:      -o-linear-gradient(#ebf2fc 0%, #ffffff 100%);
+        background:         linear-gradient(#ebf2fc 0%, #ffffff 100%);
+
+        margin-bottom:6px;
+    }
+        .text-line > input{
+            font-family:Consolas;
+            width:100%;
+            direction:rtl;
+            font-size:22px;
+            outline:0;
+            border:none;
+            background:none;
+        }
+    /*Text Line-End*/
+
+    /*Binary Field*/
+    .binary-field{
+        font-family:Consolas;
+        font-size:13px;
+        border:1px solid #8898ab;
+        border-radius:3px;
+        box-shadow: inset 0 0 0 1px white;
+        padding:3px 6px;
+        margin-bottom:5px;
+    }
+
+        .binary-field > .binary-row{ /*Binary Rows*/
+            overflow:hidden;
+        }
+            .binary-field > .binary-row > li {
+                color: #1e395b;
+                padding-right: 11px;
+                padding-left: 11px;
+                float:left;
+            }
+            .binary-field > .binary-row > li:first-child {
+                padding-right: 10px;
+                padding-left: 0px;
+            }
+            .binary-field > .binary-row > li:last-child {
+                padding-right: 0px;
+                padding-left: 10px;
+            }
+
+        .binary-field > .decimal-row-first{ /*Decimal Row First*/
+            overflow:hidden;
+        }
+            .binary-field > .decimal-row-first > li {
+                color: #666666;
+                float:left;
+            }
+            .binary-field > .decimal-row-first > li:first-child {
+                padding-right: 185px;
+                padding-left: 0px;
+            }
+            .binary-field > .decimal-row-first > li:last-child {
+                padding-right: 0px;
+                padding-left: 149px;
+            }
+
+        .binary-field > .decimal-row-second{ /*Decimal Row First*/
+            overflow:hidden;
+        }
+            .binary-field > .decimal-row-second > li {
+                color: #666666;
+                float:left;
+            }
+            .binary-field > .decimal-row-second > li:first-child {
+                padding-right: 185px;
+                padding-left: 0px;
+            }
+            .binary-field > .decimal-row-second > li:last-child {
+                padding-right: 0px;
+                padding-left: 156px;
+            }
+    /*Binary Field-End*/
+    
+    /*Input Section*/
+    .input-section {
+        overflow:hidden;
+    }
+        /*RadioInputField*/
+        .radio-input-field{
+            float:left;
+            width: 71px;
+            margin:0;
+        }
+        /*RadioInputField-End*/
+
+            /*Base System Field*/
+            .base-system-field{
+                width:55px;
+                border:1px solid #8898ab;
+                border-radius:3px;
+                padding: 3px 7px;
+                margin:0;
+                margin-bottom:5px;
+            }
+            .base-system-field li{
+                    font-size:12px;
+                    color: #1e395b;
+                    margin-top:4px;
+                    margin-bottom: 4px;
+                }
+            /*Base System Field-End*/
+
+            /*Word Type Field*/
+            .word-type-field{
+                width:55px;
+                border:1px solid #8898ab;
+                border-radius:3px;
+                padding: 3px 7px;
+            }
+                .word-type-field li{
+                    font-size:12px;
+                    color: #1e395b;
+                    margin-top:4px;
+                    margin-bottom: 4px;
+                }
+            /*Word Type Field-End*/
+    
+        /*Buttons Field*/
+
+        /*Button Types*/
+        .button{
+            width: 35px;
+            margin-bottom: 5px;
+            border: 1px solid #727F8D;
+            border-radius: 3px;
+            color: #1C3759;
+            position: relative;
+            height: 27px;
+            border: 1px solid #8797AA;
+            background: -webkit-linear-gradient(#F0F6FB 0%, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+            background:    -moz-linear-gradient(#F0F6FB 0%, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+            background:      -o-linear-gradient(#F0F6FB 0%, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+            background:         linear-gradient(#F0F6FB 0%, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+            line-height: 25px;
+        }
+        .button:disabled {
+            border-color: #B4C2D1;
+            background: #D9E4F1;
+        }
+        .button-effect:hover {
+            border-color: #F5D50F;
+            background: -webkit-linear-gradient(#FEF5EB 0%, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+            background:    -moz-linear-gradient(#FEF5EB 0%, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+            background:      -o-linear-gradient(#FEF5EB 0%, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+            background:         linear-gradient(#FEF5EB 0%, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+        }
+                .long-button{
+                    height:59px;
+                }
+                .width-button{
+                    width:74px;
+                }
+                .number-button {
+                    background: -webkit-linear-gradient(#F7FBFF 0%, #EDF3F8 49%, #E7EDF5 50%, #F3FBFF 100%);
+                    background:    -moz-linear-gradient(#F7FBFF 0%, #EDF3F8 49%, #E7EDF5 50%, #F3FBFF 100%);
+                    background:      -o-linear-gradient(#F7FBFF 0%, #EDF3F8 49%, #E7EDF5 50%, #F3FBFF 100%);
+                    background:         linear-gradient(#F7FBFF 0%, #EDF3F8 49%, #E7EDF5 50%, #F3FBFF 100%);
+                    font-size: 15px;
+                }
+                .mutted-button {
+                    background: #D9E4F1;
+                }
+
+        /*Button Types-End*/
+
+        .ButtonsField {
+            float:right;
+            width:313px;
+        }
+            .buttons-in-seven-collums{
+                float:left;
+                width: 275px;
+            }
+        /*Buttons Field-End*/
+
+    /*Input Section-End*/
+
+/*Classes-End*/
