@@ -1,4 +1,0 @@
-Console Input and Output
-===========================
-
-

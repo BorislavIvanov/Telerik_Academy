@@ -1,0 +1,4 @@
+house
+man
+keyboard
+table

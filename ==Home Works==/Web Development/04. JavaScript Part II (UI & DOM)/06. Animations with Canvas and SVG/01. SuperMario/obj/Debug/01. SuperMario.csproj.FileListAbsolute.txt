@@ -1,5 +1,0 @@
-D:\#Telerik#\09. JavaScript - Part2\Домашни\06. Анимации с Canvas и SVG\01. SuperMario\bin\_01.SuperMario.dll
-D:\#Telerik#\09. JavaScript - Part2\Домашни\06. Анимации с Canvas и SVG\01. SuperMario\bin\_01.SuperMario.pdb
-D:\#Telerik#\09. JavaScript - Part2\Домашни\06. Анимации с Canvas и SVG\01. SuperMario\obj\Debug\01. SuperMario.csprojResolveAssemblyReference.cache
-D:\#Telerik#\09. JavaScript - Part2\Домашни\06. Анимации с Canvas и SVG\01. SuperMario\obj\Debug\_01.SuperMario.dll
-D:\#Telerik#\09. JavaScript - Part2\Домашни\06. Анимации с Canvas и SVG\01. SuperMario\obj\Debug\_01.SuperMario.pdb

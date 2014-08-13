@@ -1,4 +1,0 @@
-Strings and Text Processing
-===========================
-
-
