@@ -17,3 +17,11 @@
 * **06. Exception Handling** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/02.%20C%23%20Part%20II/06.%20Exception%20Handling)
 * **07. Text Files** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/02.%20C%23%20Part%20II/07.%20Text%20Files)
 * **08. Strings and Text Processing** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/02.%20C%23%20Part%20II/08.%20Strings%20and%20Text%20Processing)
+
+>**C# OOP**
+* **01. Defining Classes – Part I** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP/01.%20Defining%20Classes%20%E2%80%93%20Part%20I)
+* **02. Defining Classes – Part II** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP/02.%20Defining%20Classes%20%E2%80%93%20Part%20II)
+* **03. Extension Methods, Lambda Expressions and LINQ** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP/03.%20Extension%20Methods%2C%20Lambda%20Expressions%20and%20LINQ)
+* **04. Object-Oriented Programming Fundamental Principles – Part I** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP/04.%20Object-Oriented%20Programming%20Fundamental%20Principles%20%E2%80%93%20Part%20I)
+* **05. Object-Oriented Programming Fundamental Principles – Part II** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP/05.%20Object-Oriented%20Programming%20Fundamental%20Principles%20%E2%80%93%20Part%20II)
+* **06. Common Type System** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP/06.%20Common%20Type%20System)
