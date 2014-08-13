@@ -1,0 +1,50 @@
+﻿<!--05.Sorting an array means to arrange its elements in increasing order. Write a script to sort an array. 
+Use the "selection sort" algorithm: Find the smallest element, move it at the first position, find the smallest from the rest, 
+move it at the second position, etc.-->
+<html>
+<head>
+	<title>05. SortingAnArray</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+        <div id="input">
+            <form>
+                <p>Enter the Array Values (separated with space)</p>
+                <label for="ArrayInput">CharrArray:</label>
+                <input type="text" id="ArrayInput"/><br /><br />
+                <a onclick="OnButtonClick()">Result</a>
+            </form>
+        </div>
+	</div>
+    <div id="task">
+        <p>Task 05.Sorting an array means to arrange its elements in increasing order. Write a script to sort an array. 
+        Use the "selection sort" algorithm: Find the smallest element, move it at the first position, find the smallest from the rest, 
+        move it at the second position, etc.</p>
+    </div> 
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    function OnButtonClick() {
+	        var input = jsConsole.read("#ArrayInput");
+	        var theArray = input.split(" ");
+
+	        var elementX = 0;
+
+	        for (var i = 0; i < theArray.length; i++)
+	        {
+                for (var j = i + 1; j < theArray.length; j++)
+	            {
+                    if (theArray[j] < theArray[i])
+	                {
+                        elementX = theArray[i];
+                        theArray[i] = theArray[j];
+                        theArray[j] = elementX;
+	                }
+                }
+	        }
+
+	        jsConsole.writeLine("( " + theArray.join(", ") + " )");
+	    }
+	</script>
+</body>
+</html>

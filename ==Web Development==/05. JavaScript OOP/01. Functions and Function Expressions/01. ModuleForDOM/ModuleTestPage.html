@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div id="myDiv"></div>
+    <p class="number">1</p>
+    <h3 id="happyHTag">Wohoooooo!!!</h3>
+    <p class="number">2</p>
+    <p class="number">3</p>
+    <script src="dom-module.js"></script>
+    <script>
+        domModule.addDomElement("h1", "Helloooo!!!", "#myDiv");
+        domModule.removeDomElements("body", ".number");
+        domModule.attachEventHandler("#happyHTag", "click", function () {
+            alert('Wohoooooo!!!');
+        });
+    </script>
+</body>
+</html>

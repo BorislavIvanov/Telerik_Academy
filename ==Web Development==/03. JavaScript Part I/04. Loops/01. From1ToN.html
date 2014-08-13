@@ -1,0 +1,46 @@
+﻿<!--01.Write a script that prints all the numbers from 1 to N.-->
+<html>
+<head>
+	<title>01. From1ToN</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+        <div id="input">
+            <form>
+                <p>Enter the Value (value > 1)</p>
+                <label for="numN">Number N:</label>
+                <input type="text" id="numN"/><br /><br />
+                <a onclick="OnButtonClick()">Result</a>
+            </form>
+        </div>
+	</div>
+    <div id="task">
+        <p>Task 01.Write a script that prints all the numbers from 1 to N</p>
+    </div> 
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    function OnButtonClick() {
+	        var numberN = jsConsole.readInteger("#numN");
+
+	        if (numberN <= 1) {
+	            jsConsole.writeLine("Invalid Input!!!");
+	        }
+	        else {
+	            jsConsole.writeLine("All numbers in range 1-" + numberN + ":");
+	            for (var i = 1; i <= numberN; i++) {
+	                jsConsole.write(i);
+
+	                if (i != numberN) {
+	                    jsConsole.write(" ");
+	                }
+	                else {
+	                    jsConsole.writeLine("");
+	                    jsConsole.writeLine("");
+	                }
+	            }
+	        }
+	    }
+	</script>
+</body>
+</html>

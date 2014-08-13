@@ -1,0 +1,37 @@
+﻿<!--02.Write a boolean expression that checks for given integer if it can be divided (without remainder) 
+by 7 and 5 in the same time.-->
+<html>
+<head>
+	<title>02. Can Be Divided By 5 And 7</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+        <div id="input">
+            <form>
+                <p>Enter value</p>
+                <label for="inputField">Number -></label>
+                <input type="text" id="inputField"/>
+                <a onclick="OnButtonClick()">Result</a>
+            </form>
+        </div>
+	</div>
+    <div id="task">
+        <p>Task 02.Write a boolean expression that checks for given integer if it can be divided (without remainder) 
+        by 7 and 5 in the same time.</p>
+    </div>		 
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    function OnButtonClick() {
+	        var number = jsConsole.readInteger("#inputField");
+
+	        if (number % 35 === 0) {
+	            jsConsole.writeLine(number + " can be divided by 5 and 7 in the same time!");
+	        }
+	        else {
+	            jsConsole.writeLine(number + " can't be divided by 5 and 7 in the same time!");
+	        }
+	    }
+	</script>
+</body>
+</html>

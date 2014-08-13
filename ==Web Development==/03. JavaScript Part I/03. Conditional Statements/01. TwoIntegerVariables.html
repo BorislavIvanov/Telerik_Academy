@@ -1,0 +1,49 @@
+﻿<!--01.Write an if statement that examines two integer variables and exchanges their values if the first one is greater than 
+the second one.-->
+<html>
+<head>
+	<title>01. TwoIntegerVariables</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+        <div id="input">
+            <form>
+                <p>Enter the Values</p>
+                <label for="firstNum">First Number</label>
+                <input type="text" id="firstNum"/><br />
+                <label for="secondNum">Second Number</label>
+                <input type="text" id="secondNum"/><br /><br />
+                <a onclick="OnButtonClick()">Result</a>
+            </form>
+        </div>
+	</div>
+    <div id="task">
+        <p>Task 01.Write an if statement that examines two integer variables and exchanges their values if the first one is greater than 
+        the second one.</p>
+    </div> 
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    function OnButtonClick() {
+	        var firstVariable = jsConsole.readInteger("#firstNum");
+	        var secondVariable = jsConsole.readInteger("#secondNum");
+	        var X;
+
+	        if (firstVariable > secondVariable)
+	        {
+	            X = firstVariable;
+	            firstVariable = secondVariable;
+	            secondVariable = X;
+
+	            jsConsole.writeLine("First Variable > Second Variable - so they must be exchanged: ");
+	            jsConsole.writeLine("First Variable now is " + firstVariable);
+	            jsConsole.writeLine("Second Variable now is " + secondVariable);
+	        }
+	        else
+	        {
+	            jsConsole.writeLine("First Variable < Second Variable so everything is OK");
+	        }
+	    }
+	</script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+﻿<!--02.Write a script that shows the sign (+ or -) of the product of three real numbers without calculating it. 
+Use a sequence of if statements.-->
+<html>
+<head>
+	<title>02. ShowTheSign</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+        <div id="input">
+            <form>
+                <p>Enter values</p>
+                <label for="firstValue">First Value</label>
+                <input type="text" id="firstValue"/><br />
+                <label for="secondValue">Second Value</label>
+                <input type="text" id="secondValue"/><br />
+                <label for="thirdValue">Third Value</label>
+                <input type="text" id="thirdValue"/><br /><br />
+                <a onclick="OnButtonClick()">Result</a>
+            </form>
+        </div>
+	</div>
+    <div id="task">
+        <p>Task 02.Write a script that shows the sign (+ or -) of the product of three real numbers without calculating it. 
+        Use a sequence of if statements.</p>
+    </div> 
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    function OnButtonClick() {
+	        var firstNumber = jsConsole.readInteger("#firstValue");
+	        var secondNumber = jsConsole.readInteger("#secondValue");
+	        var thirdNumber = jsConsole.readInteger("#thirdValue");
+
+	        if ((firstNumber < 0 && secondNumber < 0 && thirdNumber > 0) ||
+                (firstNumber > 0 && secondNumber < 0 && thirdNumber < 0) ||
+                (firstNumber < 0 && secondNumber > 0 && thirdNumber < 0))
+	        {
+	            jsConsole.writeLine("The Sign is +");
+	        }
+
+	        else if ((firstNumber < 0 && secondNumber > 0 && thirdNumber > 0) ||
+                     (firstNumber > 0 && secondNumber < 0 && thirdNumber > 0) ||
+                     (firstNumber > 0 && secondNumber > 0 && thirdNumber < 0))
+	        {
+	            jsConsole.writeLine("The sign is -");
+	        }
+
+	        else if (firstNumber > 0 && secondNumber > 0 && thirdNumber > 0)
+	        {
+	            jsConsole.writeLine("The Sign is +");
+	        }
+
+	        else if (firstNumber < 0 && secondNumber < 0 && thirdNumber < 0)
+	        {
+	            jsConsole.writeLine("The sign is -");
+	        }
+
+	        else if (firstNumber == 0 || secondNumber == 0 || thirdNumber == 0)
+	        {
+	            jsConsole.writeLine("One or more than one numbers are 0 so the sum will be 0!");
+	        }
+	    }
+	</script>
+</body>
+</html>

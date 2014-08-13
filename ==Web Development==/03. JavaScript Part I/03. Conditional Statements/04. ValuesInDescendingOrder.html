@@ -1,0 +1,73 @@
+﻿<!--04.Sort 3 real values in descending order using nested if statements.-->
+<html>
+<head>
+	<title>04. ValuesInDescendingOrder</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+        <div id="input">
+            <form>
+                <p>Enter values</p>
+                <label for="firstValue">First Value</label>
+                <input type="text" id="firstValue"/><br />
+                <label for="secondValue">Second Value</label>
+                <input type="text" id="secondValue"/><br />
+                <label for="thirdValue">Third Value</label>
+                <input type="text" id="thirdValue"/><br /><br />
+                <a onclick="OnButtonClick()">Result</a>
+            </form>
+        </div>
+	</div>
+    <div id="task">
+        <p>Task 04.Sort 3 real values in descending order using nested if statements.</p>
+    </div> 
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    function OnButtonClick() {
+	        var firstNumber = jsConsole.readInteger("#firstValue");
+	        var secondNumber = jsConsole.readInteger("#secondValue");
+	        var thirdNumber = jsConsole.readInteger("#thirdValue");
+
+	        if (firstNumber > secondNumber && firstNumber > thirdNumber)
+	        {
+	            if (secondNumber > thirdNumber)
+	            {
+	                jsConsole.writeLine(firstNumber + " " + secondNumber + " " + thirdNumber);
+	            }
+
+	            else
+	            {
+	                jsConsole.writeLine(firstNumber + " " + thirdNumber + " " + secondNumber);
+	            }
+	        }
+
+	        else if (secondNumber > firstNumber && secondNumber > thirdNumber)
+	        {
+	            if (firstNumber > thirdNumber)
+	            {
+	                jsConsole.writeLine(secondNumber + " " + firstNumber + " " + thirdNumber);
+	            }
+
+	            else
+	            {
+	                jsConsole.writeLine(secondNumber + " " + thirdNumber + " " + firstNumber);
+	            }
+	        }
+
+	        else if (thirdNumber > firstNumber && thirdNumber > secondNumber)
+	        {
+	            if (firstNumber > secondNumber)
+	            {
+	                jsConsole.writeLine(thirdNumber + " " + firstNumber + " " + secondNumber);
+	            }
+
+	            else
+	            {
+	                jsConsole.writeLine(thirdNumber + " " + secondNumber + " " + firstNumber);
+	            }
+	        }
+	    }
+	</script>
+</body>
+</html>

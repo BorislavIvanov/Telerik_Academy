@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script src="UnderscoreJS%20v1.6.0.js"></script>
+    <script>
+
+        var people = [
+            { firstName: "Kalin", lastName: "Stamenov" },
+            { firstName: "Georgi", lastName: "Barzashki" },
+            { firstName: "Georgi", lastName: "Kamenov" },
+            { firstName: "Georgi", lastName: "Stamenov" },
+            { firstName: "Georgi", lastName: "Iliev" },
+            { firstName: "Marin", lastName: "Stamenov" },
+        ];
+
+        var firstNamesCountBy = _.countBy(people, function (p) {
+            return p.firstName;
+        });
+
+        var lastNamesCountBy = _.countBy(people, function (p) {
+            return p.lastName;
+        });
+
+        var maxFName = _.max(firstNamesCountBy, function (o) {
+            return o;
+        });
+
+        var maxLName = _.max(lastNamesCountBy, function (o) {
+            return o;
+        });
+
+        for (var prop in firstNamesCountBy) {
+            if (firstNamesCountBy[prop] == maxFName) {
+                console.log("Most common first name: " + prop + " found " + maxFName + " times.");
+            }
+        }
+
+        for (var prop in lastNamesCountBy) {
+            if (lastNamesCountBy[prop] == maxLName) {
+                console.log("Most common first name: " + prop + " found " + maxLName + " times.");
+            }
+        }
+    </script>
+</body>
+</html>

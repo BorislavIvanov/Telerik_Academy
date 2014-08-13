@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script src="UnderscoreJS%20v1.6.0.js"></script>
+    <script>
+        var students = [
+            { fname: "Georgi", lname: "Marinov", age: 17 },
+            { fname: "Iliq", lname: "Markov", age: 22 },
+            { fname: "Marina", lname: "Grigorova", age: 23 },
+            { fname: "Kaloqn", lname: "Nedelchev", age: 28 },
+        ];
+
+        var studentsInRange = _.filter(students, function (stud) {
+            return stud.age >= 18 && stud.age <= 24;
+        })
+
+        _.each(studentsInRange, function (stud) {
+            console.log(stud.fname + " " + stud.lname + " - " + stud.age);
+        })
+    </script>
+</body>
+</html>

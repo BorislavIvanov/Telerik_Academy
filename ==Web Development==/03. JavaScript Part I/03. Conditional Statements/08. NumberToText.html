@@ -1,0 +1,186 @@
+﻿<!--08.Write a script that converts a number in the range [0...999] to a text corresponding to its English pronunciation. 
+    Examples:
+	0 -> "Zero"
+	273 -> "Two hundred seventy three"
+	400 -> "Four hundred"
+	501 -> "Five hundred and one"
+	711 -> "Seven hundred and eleven"
+-->
+<html>
+<head>
+	<title>08. NumberToText</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+        <div id="input">
+            <form>
+                <p>Enter a digit in range 0-999</p>
+                <label for="inputNum">First Value</label>
+                <input type="text" id="inputNum"/>
+                <a onclick="OnButtonClick()">Result</a>
+            </form>
+        </div>
+	</div>
+    <div id="task">
+        <p>Task 08.Write a script that converts a number in the range [0...999] to a text corresponding to its English pronunciation. 
+        Examples: 0 -> "Zero", 273 -> "Two hundred seventy three", 400 -> "Four hundred", 501 -> "Five hundred and one", 711 -> "Seven hundred and eleven";</p>
+    </div> 
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    function DigitToString(number) {
+	        switch (number) {
+	            case 0:
+	                return "";
+	                break;
+	            case 1:
+	                return "one";
+	                break;
+	            case 2:
+	                return "two";
+	                break;
+	            case 3:
+	                return "three";
+	                break;
+	            case 4:
+	                return "four";
+	                break;
+	            case 5:
+	                return "five";
+	                break;
+	            case 6:
+	                return "six";
+	                break;
+	            case 7:
+	                return "seven";
+	                break;
+	            case 8:
+	                return "eight";
+	                break;
+	            case 9:
+	                return "nine";
+	                break;
+	        }
+	    }
+
+	    function DecToString(number) {
+	        switch (number) {
+	            case 0:
+	                return "";
+	                break;
+	            case 1:
+	                return "ten";
+	                break;
+	            case 2:
+	                return "twenty"
+	                break;
+	            case 3:
+	                return "thirty"
+	                break;
+	            case 5:
+	                return "fifty"
+	                break;
+	            case 4:
+	            case 6:
+	            case 7:
+	            case 9:
+	                return DigitToString(number) + "ty"
+	                break;
+	            case 8:
+	                return DigitToString(number) + "y"
+	                break;
+	        }
+	    }
+
+	    function CombineDec(number) {
+	        var numDec = Math.floor(number / 10);
+	        var numLeft = number % 10;
+
+	        switch (numDec) {
+	            case 0:
+	                return DigitToString(number);
+	                break;
+	            case 1:
+	                switch (numLeft) {
+	                    case 0:
+	                        return DecToString(numDec);
+	                        break;
+	                    case 1:
+	                        return "eleven";
+	                        break;
+	                    case 2:
+	                        return "twelve";
+	                        break;
+	                    case 3:
+	                        return "thirteen";
+	                        break;
+	                    case 5:
+	                        return "fifteen";
+	                        break;
+	                    case 4:
+	                    case 6:
+	                    case 7:
+	                    case 9:
+	                        return DigitToString(numLeft) + "teen";
+	                        break;
+	                    case 8:
+	                        return DigitToString(numLeft) + "een";
+	                        break;
+	                }
+	                break;
+	            case 2:
+	            case 3:
+	            case 4:
+	            case 5:
+	            case 6:
+	            case 7:
+	            case 8:
+	            case 9:
+	                if (0 == numLeft) {
+	                    return DecToString(numDec);
+	                }
+	                else {
+	                    return DecToString(numDec) + " " + DigitToString(numLeft);
+	                }
+	                break;
+	        }
+	    }
+
+	    function OnButtonClick() {
+	        var num = jsConsole.readInteger("#inputNum");
+	        var numHun = Math.floor(num / 100);
+	        var numDec = num % 100;
+	        var resText = "";
+
+	        if ((isNaN(num)) || (num < 0) || (num > 999)) {
+	            jsConsole.writeLine("Invalid input");
+	        }
+	        else {
+	            if (0 == num) {
+	                resText = "zero";
+	            }
+	            else {
+	                if (numHun > 0) {
+	                    resText = DigitToString(numHun) + " hundred";
+	                    if (numDec > 0) {
+	                        if ((numDec < 20) || ((numDec % 10) == 0)) {
+	                            // Example: Seven hundred and eleven
+	                            resText += " and "
+	                        }
+	                        else {
+	                            // Example: Two hundred seventy three 
+	                            resText += " ";
+	                        }
+	                    }
+	                }
+	                resText += CombineDec(numDec);
+	            }
+
+	            // Make first letter upper case
+	            resText = resText.charAt(0).toUpperCase() + resText.slice(1);
+	            jsConsole.writeLine(resText);
+	        }
+	    }
+	</script>
+</body>
+</html>

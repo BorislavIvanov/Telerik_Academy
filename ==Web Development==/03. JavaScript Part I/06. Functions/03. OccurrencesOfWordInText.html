@@ -1,0 +1,76 @@
+﻿<!--03.Write a function that finds all the occurrences of word in a text
+- The search can case sensitive or case insensitive
+- Use function overloading-->
+<html>
+<head>
+	<title>03. OccurrencesOfWordInText</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+        <div id="input">
+            <form>
+                <p>Fill the fields (separate the words in text with space)</p>
+                <label for="inputText">Text:</label>
+                <input type="text" id="inputText"/><br />
+                <label for="inputWord">Word:</label>
+                <input type="text" id="inputWord"/><br /><br />
+                <a onclick="OnButtonClick()">Result</a>
+            </form>
+        </div>
+	</div>
+    <div id="task">
+        <p>Task 03.Write a function that finds all the occurrences of word in a text:
+        The search can case sensitive or case insensitive;
+        Use function overloading;
+        </p>
+    </div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    function OnButtonClick() {
+	        var theText = jsConsole.read("#inputText");
+	        var theWord = jsConsole.read("#inputWord");
+
+	        findOccurences(theText, theWord, true);
+	        findOccurences(theText, theWord, false);
+
+	        function findOccurences(text, word, isCaseSensitive) {
+	            isCaseSensitive = isCaseSensitive || false;
+
+	            var count = 0;
+	            var wordsInText = text.split(" ");
+
+	            function getOccurencesCaseInsensitive(word) {
+	                
+	                for (var i = 0; i < wordsInText.length; i++) {
+	                    if (word.toLowerCase() == wordsInText[i].toLowerCase()) {
+	                        count++;
+	                    }
+	                }
+	                jsConsole.writeLine("Count (Case InSensitive): " + count);
+	            }
+
+	            function getOccurencesCaseSensitive(word) {
+	                
+	                for (var i = 0; i < wordsInText.length; i++) {
+	                    if (word == wordsInText[i]) {
+	                        count++;
+	                    }
+	                }
+	                jsConsole.writeLine("Count (Case Sensitive): " + count);
+	            }
+
+	            switch (arguments.length) {
+	                case 2: {
+	                    getOccurencesCaseInsensitive();
+	                    break;
+	                }
+	                case 3: {
+	                    isCaseSensitive ? getOccurencesCaseSensitive(word) : getOccurencesCaseInsensitive(word);
+	                }
+	            }
+	        }
+	    }
+	</script>
+</body>
+</html>

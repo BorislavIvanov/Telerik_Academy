@@ -1,0 +1,43 @@
+﻿<!--07. Write a script that parses an URL address given in the format -
+[protocol]://[server]/[resource]-->
+<html>
+<head>
+	<title>07. GetURLData</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+    <div id="task">
+        <p>07. Write a script that parses an URL address given in the format - [protocol]://[server]/[resource]</p>
+    </div>
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    var inputURL = "http://www.devbg.org/forum/index.php ";
+
+	    function getUrlData(url) {
+	        url = url.trim();
+
+	        var patternProtocolPart = /^(?:([a-z]+):\/\/)?/;
+	        var patternServerPart = /([\w\.\-]+)/;
+	        var patternResourcePart = /([\w\.#=&\+\-%\/\?]+)?$/;
+
+	        var pattern = new RegExp(patternProtocolPart.source + patternServerPart.source + patternResourcePart.source);
+
+	        var match = url.match(pattern);
+
+	        return {
+	            protocol: match[1],
+	            server: match[2],
+	            resource: match[3]
+	        };
+	    }
+
+	    var theUrlData = getUrlData(inputURL);
+
+	    jsConsole.writeLine("URL: " + inputURL);
+	    jsConsole.writeLine("Protocol: " + theUrlData.protocol);
+	    jsConsole.writeLine("Server: " + theUrlData.server);
+	    jsConsole.writeLine("Resource: " + theUrlData.resource);
+    </script>
+</body>
+</html>

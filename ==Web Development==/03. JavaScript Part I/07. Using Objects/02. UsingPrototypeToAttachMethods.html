@@ -1,0 +1,43 @@
+﻿<!--02.Write a function that removes all elements with a given value
+- Attach it to the array class
+- Read about prototype and how to attach methods
+-->
+<html>
+<head>
+	<title>02. UsingPrototypeToAttachMethods</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+    <div id="task">
+        <p>02.Write a function that removes all elements with a given value</p>
+        <p>- Attach it to the array class;</p>
+        <p>- Read about prototype and how to attach methods;</p>
+    </div> 
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    Array.prototype.remove = function (number) {
+	        var index = undefined;
+
+	        while (index != -1) {
+	            index = this.indexOf(number);
+
+	            if (index != -1) {
+	                this.splice(index, 1);
+	            }
+	        }
+	        
+	    }
+
+	    var array = [2, 2, 2, 4, 7, 2, 3, 7, 9, 3, 4, 5, 7, 2, 3, 4, 6, 8, 2];
+
+	    jsConsole.writeLine("The array is: " + array.join(", "));
+
+	    jsConsole.writeLine("array.remove(2);");
+	    array.remove(2);
+
+	    jsConsole.write("Array after the process: ");
+	    jsConsole.writeLine(array.join(", "));
+	</script>
+</body>
+</html>

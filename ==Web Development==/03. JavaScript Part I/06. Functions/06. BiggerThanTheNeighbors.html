@@ -1,0 +1,67 @@
+﻿<!--06.Write a function that checks if the element at given position in given array of integers is bigger than its 
+two neighbors (when such exist).-->
+<html>
+<head>
+	<title>06. BiggerThanTheNeighbors</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console">
+        <div id="input">
+            <form>
+                <p>The array is - [5, 9, 3, 4, 5, 2, 1, 5, 6, 3, 4, 3, 2, 1, 6, 4, 2, 4, 3]</p>
+                <p>Enter the Position Value</p>
+                <label for="inputPosition">Position:</label>
+                <input type="text" id="inputPosition"/><br /><br />
+                <a onclick="OnButtonClick()">Result</a>
+            </form>
+        </div>
+	</div>
+    <div id="task">
+        <p>Task 06.Write a function that checks if the element at given position in given array of integers is bigger than its 
+        two neighbors (when such exist).</p>
+    </div> 
+	<script src="scripts/js-console.js"></script>
+	<script>
+	    function OnButtonClick() {
+	        var arrayOfNumbers = [5, 9, 3, 4, 5, 2, 1, 5, 6, 3, 4, 3, 2, 1, 6, 4, 2, 4, 3];
+	        var inputPosition = jsConsole.read("#inputPosition");
+
+	        IsTheCellBiggerThanNeighbors(arrayOfNumbers, inputPosition);
+
+	        function IsTheCellBiggerThanNeighbors(array, position) {
+	            var count = 0;
+
+	            if (position < 0 || position > array.length) {
+	                jsConsole.writeLine("Error!!! Invalid Position!!!");
+	            }
+	            else if (position == 0) {
+	                if (arrayOfNumbers[position] > arrayOfNumbers[position + 1]) {
+	                    jsConsole.writeLine("The value in first position 0 is bigger than his right neighbor.");
+	                }
+	                else {
+	                    jsConsole.writeLine("The value in first position 0 isn't bigger than his right neighbor.");
+	                }
+	            }
+	            else if (position == arrayOfNumbers.length - 1) {
+	                if (arrayOfNumbers[position] > arrayOfNumbers[position - 1]) {
+	                    jsConsole.writeLine("The value in last position " + position + " is bigger than his left neighbor.");
+	                }
+	                else {
+	                    jsConsole.writeLine("The value in last position " + position + " isn't bigger than his left neighbor.");
+	                }
+	            }
+	            else {
+	                if (arrayOfNumbers[position] > arrayOfNumbers[position - 1] &&
+                        arrayOfNumbers[position] > arrayOfNumbers[position + 1]) {
+	                    jsConsole.writeLine("The value in position " + position + " is bigger than his neighbors.");
+	                }
+	                else {
+	                    jsConsole.writeLine("The value in position " + position + " isn't bigger than his neighbors.");
+	                }
+	            }
+	        }
+	    }
+        </script>
+</body>
+</html>
