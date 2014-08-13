@@ -41,4 +41,4 @@
 * **12. Refactoring** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/04.%20C%23%20High%20Quality%20Code/12.%20Refactoring)
 
 **Team Works**
-* **01. C# Part One - Teamwork - SnakeTheGame** [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/%3D%3DTeam%20Works%3D%3D/01.%20C%23%20Part%20One%20-%20Teamwork%20-%20SnakeTheGame) - [*Teamwork Task*](https://github.com/BorislavIvanov/Telerik_Academy/blob/master/01.%20Programming/%3D%3DTeam%20Works%3D%3D/01.%20C%23%20Part%20One%20-%20Teamwork%20-%20SnakeTheGame/README.md)
+* **01. C# Part One - Teamwork - SnakeTheGame** [(*Link*)](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/%3D%3DTeam%20Works%3D%3D/01.%20C%23%20Part%20One%20-%20Teamwork%20-%20SnakeTheGame) - [*Teamwork Task*](https://github.com/BorislavIvanov/Telerik_Academy/blob/master/01.%20Programming/%3D%3DTeam%20Works%3D%3D/01.%20C%23%20Part%20One%20-%20Teamwork%20-%20SnakeTheGame/README.md)
