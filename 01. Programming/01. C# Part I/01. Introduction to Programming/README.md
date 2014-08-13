@@ -28,4 +28,4 @@ Microsoft Visual Studio (or Visual Studio Express)
 
 11. Describe the difference between C# and .NET Framework.
 
-12. (Difficult) Write a program to read your age from the console and print how old you will be after 10 years.
+12. (Difficult Task) Write a program to read your age from the console and print how old you will be after 10 years.
