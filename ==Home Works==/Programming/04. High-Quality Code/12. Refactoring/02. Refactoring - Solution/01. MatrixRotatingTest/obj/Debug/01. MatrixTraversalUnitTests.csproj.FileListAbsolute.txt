@@ -1,7 +1,0 @@
-C:\Users\BoBBy\Desktop\12. Refactoring\01. MatrixTraversalUnitTests\bin\Debug\MatrixTraversalUnitTests.dll
-C:\Users\BoBBy\Desktop\12. Refactoring\01. MatrixTraversalUnitTests\bin\Debug\MatrixTraversalUnitTests.pdb
-C:\Users\BoBBy\Desktop\12. Refactoring\01. MatrixTraversalUnitTests\bin\Debug\MatrixTraversal.dll
-C:\Users\BoBBy\Desktop\12. Refactoring\01. MatrixTraversalUnitTests\bin\Debug\MatrixTraversal.pdb
-C:\Users\BoBBy\Desktop\12. Refactoring\01. MatrixTraversalUnitTests\obj\Debug\01. MatrixTraversalUnitTests.csprojResolveAssemblyReference.cache
-C:\Users\BoBBy\Desktop\12. Refactoring\01. MatrixTraversalUnitTests\obj\Debug\MatrixTraversalUnitTests.dll
-C:\Users\BoBBy\Desktop\12. Refactoring\01. MatrixTraversalUnitTests\obj\Debug\MatrixTraversalUnitTests.pdb
