@@ -48,8 +48,22 @@ If you have a chance, time and a suitable situation, you might add some of the f
 * Put the following in a ZIP archive and submit it (each team member submits the same file):
 * The complete source code.
 * Brief documentation of your project (2-3 pages). It should provide the following information (in brief):
- * Team name and list of team members
+ * Team name and list of team members.
  * Project purpose – what problem do you solve?
- * The URL of your Git repository
- * Any other information (optionally)
+ * The URL of your Git repository.
+ * Any other information (optionally).
 * Optionally provide a PowerPoint presentation designed for the project defense.
+
+##Public Project Defense
+
+Each team will have to deliver a **public defense** of its work to the other students and trainers. You will have only **5 minutes** for the following:
+* Demonstrate the application (very shortly).
+* Show the source code.
+* Show the commits logs to confirm that team member have contributed.
+* Optionally you might prepare a PowerPoint presentation (3-4 slides).
+
+Please be **strict in timing**! Be **well prepared** for presenting maximum of your work for minimum time. Bring your own laptop. Test it preliminary with the multimedia projector. Open the project assets beforehand to save time. You have 5 minutes, no more.
+
+##Give Feedback about Your Teammates
+
+You will be invited to provide feedback about all your teammates, their attitude to this project, their technical skills, their team working skills, their contribution to the project, etc. The feedback is important part of the project evaluation so take it seriously and be honest.
