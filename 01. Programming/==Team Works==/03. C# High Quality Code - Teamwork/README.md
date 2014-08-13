@@ -21,15 +21,12 @@ In order to ensure the high quality of the assigned project you need to fulfill 
 * **Perform refactoring of the entire project** (its directory structure, project files, source code, classes, interfaces, methods, properties, fields and other class members and program members and its programming logic) in order to make the code “high quality” according to the best practices introduced in the course “High-Quality Programming Code”. The obtained refactored code should conform to the following characteristics:
 
  * **Easy to read, understand and maintain** – the code should be well structured; should be easy to read and understand, easy to modify and maintain; should follow the concept of self-documenting code; should use good names for classes, methods, variables, and other identifiers; should be consistently formatted following the best formatting practices; should have strong cohesion at all levels (modules, classes, methods, etc.); should have loose coupling between modules, classes, methods, etc.; should follow the best practices of organizing programming logic at all levels (classes, methods, loops, conditional statements and other statements); should follow the best practices for working with variables, data, expressions, constants, control structures, exceptions, comments, etc.
-
  * **Correct behavior** – the project should fulfill correctly the requirements and to behave correctly in all possible use cases. This means that all bugs or other problems in the project (e.g. performance or usability issues) should be fixed and any unfinished or missing functionality should be completed. The code should be very well tested with properly designed unit tests.
 
 * **Implement design patterns** – redesign the project to fulfil 6 of the [Software Design patterns](http://en.wikipedia.org/wiki/Software_design_pattern):
 
  * **Structural patterns** – implement at least 2 of the structural design patterns (adapter, aggregate, bridge, composite,   decorator, extensibility, façade, etc…).
- 
  * **Behavior patterns** – implement at least 2 of the behavioral design patterns (chain of responsibility, command, interpreter, iterator, mediator, observer, etc…).
- 
  * **Creational patterns** – implement at least 2 of the creational design patterns (abstract factory, builder, factory method, singleton, prototype, etc…).
 
 * **Follow the SOLID and DRY principles** – Single responsibility, Open/close, Liskov substitution, Interface segregation, Dependency inversion, Don't repeat yourself.
@@ -42,7 +39,18 @@ In order to ensure the high quality of the assigned project you need to fulfill 
 
 ##Deliverables
 
-1. The original source code (project files, .cs files) without executables.
-2. The refactored source code (project files, .cs files) without executables.
-3. The unit tests – source code (project files, .cs files) without executables.
-4. The refactoring documentation.
+1. The **original source code** (project files, .cs files) without executables.
+2. The **refactored source code** (project files, .cs files) without executables.
+3. The **unit tests** – source code (project files, .cs files) without executables.
+4. The **refactoring documentation**.
+
+##Team Work Requirements
+
+* Obligatory use **Git** as source code repository and **GitHub** ([http://github.com](http://github.com)) as project hosting and team collaboration environment. SVN or TFS are not allowed for this project.
+* **Each team member** should have contributions to the project and **commits in the source control repository in 3 different days**. We acknowledge that this requirement seems a bit unnatural, but we want to track **how the team collaborates over the time** and that the **project is developed incrementally**, not in the “last minute”.
+
+##Other Requirements
+
+* Pack the project deliverables in a **single ZIP archive**. Be sure to avoid including large unused files in the archives (e.g. compilation binaries). Your archive should be up to 8 MB. Each team member should submit the same archive as a homework.
+* Be prepared as a team to **defend your project** in front of the course lecturers. You should be able to explain what refactorings have been performed and why. The documentation will definitely help you. Be prepared to **demonstrate how the unit tests cover the project’s functionality**. Preferably bring your own laptop to reduce the effort to setup your development environment and project workspace.
+* Be prepared to **show the commit logs** from the source control system to demonstrat.
