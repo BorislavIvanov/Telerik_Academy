@@ -11,7 +11,7 @@
 >**Web Development**
 * **HTML 5** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/01.%20HTML%205)
 * **CSS 3** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/02.%20CSS%203)
-* **JavaScript Part I** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/03.%20JavaScript%20Part%20I)
-* **JavaScript Part II (UI & DOM)** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/04.%20JavaScript%20Part%20II%20(UI%20%26%20DOM))
+* **JavaScript Part One** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/03.%20JavaScript%20Part%20I)
+* **JavaScript Part Two (UI & DOM)** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/04.%20JavaScript%20Part%20II%20(UI%20%26%20DOM))
 * **JavaScript OOP** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/05.%20JavaScript%20OOP)
 * **JavaScript Applications** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/06.%20JavaScript%20Applications)
