@@ -1,6 +1,6 @@
 #Programming
 
->**C# Part I**
+**C# Part I**
 * **01. Introduction to Programming** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/01.%20C%23%20Part%20I/01.%20Introduction%20to%20Programming)
 * **02. Primitive Data Types and Variables** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/01.%20C%23%20Part%20I/02.%20Primitive%20Data%20Types%20and%20Variables)
 * **03. Operators and Expressions** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/01.%20C%23%20Part%20I/03.%20Operators%20and%20Expressions)
@@ -8,7 +8,7 @@
 * **05. Conditional Statements** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/01.%20C%23%20Part%20I/05.%20Conditional%20Statements)
 * **06. Loops** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/01.%20C%23%20Part%20I/06.%20Loops)
 
->**C# Part II**
+**C# Part II**
 * **01. Arrays** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/02.%20C%23%20Part%20II/01.%20Arrays)
 * **02. Multidimensional Arrays** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/02.%20C%23%20Part%20II/02.%20Multidimensional%20Arrays)
 * **03. Methods** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/02.%20C%23%20Part%20II/03.%20Methods)
@@ -18,7 +18,7 @@
 * **07. Text Files** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/02.%20C%23%20Part%20II/07.%20Text%20Files)
 * **08. Strings and Text Processing** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/02.%20C%23%20Part%20II/08.%20Strings%20and%20Text%20Processing)
 
->**C# OOP**
+**C# OOP**
 * **01. Defining Classes – Part I** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP/01.%20Defining%20Classes%20%E2%80%93%20Part%20I)
 * **02. Defining Classes – Part II** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP/02.%20Defining%20Classes%20%E2%80%93%20Part%20II)
 * **03. Extension Methods, Lambda Expressions and LINQ** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP/03.%20Extension%20Methods%2C%20Lambda%20Expressions%20and%20LINQ)
@@ -26,7 +26,7 @@
 * **05. Object-Oriented Programming Fundamental Principles – Part II** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP/05.%20Object-Oriented%20Programming%20Fundamental%20Principles%20%E2%80%93%20Part%20II)
 * **06. Common Type System** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP/06.%20Common%20Type%20System)
 
->**C# High Quality Code**
+**C# High Quality Code**
 * **01. Code Formatting** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/04.%20C%23%20High%20Quality%20Code/01.%20Code%20Formatting)
 * **02. Naming Identifiers** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/04.%20C%23%20High%20Quality%20Code/02.%20Naming%20Identifiers)
 * **03. Code Documentation and Comments in the Program** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/04.%20C%23%20High%20Quality%20Code/03.%20Code%20Documentation%20and%20Comments%20in%20the%20Program)
