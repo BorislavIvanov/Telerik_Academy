@@ -1,6 +1,0 @@
-C:\Users\BoBBy\Desktop\1. Furnitures\1. Furnitures_Скелет на решението\FurnitureManufacturer\bin\Debug\Furnitures.exe.config
-C:\Users\BoBBy\Desktop\1. Furnitures\1. Furnitures_Скелет на решението\FurnitureManufacturer\obj\Debug\FurnitureManufacturer.csprojResolveAssemblyReference.cache
-C:\Users\BoBBy\Desktop\1. Furnitures\1. Furnitures_Скелет на решението\FurnitureManufacturer\bin\Debug\Furnitures.exe
-C:\Users\BoBBy\Desktop\1. Furnitures\1. Furnitures_Скелет на решението\FurnitureManufacturer\bin\Debug\Furnitures.pdb
-C:\Users\BoBBy\Desktop\1. Furnitures\1. Furnitures_Скелет на решението\FurnitureManufacturer\obj\Debug\Furnitures.exe
-C:\Users\BoBBy\Desktop\1. Furnitures\1. Furnitures_Скелет на решението\FurnitureManufacturer\obj\Debug\Furnitures.pdb

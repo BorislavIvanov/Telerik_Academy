@@ -1,0 +1,9 @@
+C:\Users\BoBBy\Desktop\2. Trade and Travel_Условие на задачата\TradeAndTravel-Skeleton\TradeAndTravel-Skeleton\TradeAndTravel\bin\Debug\TradeAndTravel.exe.config
+C:\Users\BoBBy\Desktop\2. Trade and Travel_Условие на задачата\TradeAndTravel-Skeleton\TradeAndTravel-Skeleton\TradeAndTravel\bin\Debug\TradeAndTravel.exe
+C:\Users\BoBBy\Desktop\2. Trade and Travel_Условие на задачата\TradeAndTravel-Skeleton\TradeAndTravel-Skeleton\TradeAndTravel\bin\Debug\TradeAndTravel.pdb
+C:\Users\BoBBy\Desktop\2. Trade and Travel_Условие на задачата\TradeAndTravel-Skeleton\TradeAndTravel-Skeleton\TradeAndTravel\obj\Debug\TradeAndTravel.csprojResolveAssemblyReference.cache
+C:\Users\BoBBy\Desktop\2. Trade and Travel_Условие на задачата\TradeAndTravel-Skeleton\TradeAndTravel-Skeleton\TradeAndTravel\obj\Debug\TradeAndTravel.exe
+C:\Users\BoBBy\Desktop\2. Trade and Travel_Условие на задачата\TradeAndTravel-Skeleton\TradeAndTravel-Skeleton\TradeAndTravel\obj\Debug\TradeAndTravel.pdb
+D:\#Telerik#\#GitHub Directory#\Telerik-Academy\==Exam Tasks==\03. C# - OOP\TradeAndTravel\TradeAndTravel-Solution\TradeAndTravel-Skeleton\TradeAndTravel\bin\Debug\TradeAndTravel.exe.config
+D:\#Telerik#\#GitHub Directory#\Telerik-Academy\==Exam Tasks==\03. C# - OOP\TradeAndTravel\TradeAndTravel-Solution\TradeAndTravel-Skeleton\TradeAndTravel\obj\Debug\TradeAndTravel.exe
+D:\#Telerik#\#GitHub Directory#\Telerik-Academy\==Exam Tasks==\03. C# - OOP\TradeAndTravel\TradeAndTravel-Solution\TradeAndTravel-Skeleton\TradeAndTravel\obj\Debug\TradeAndTravel.pdb

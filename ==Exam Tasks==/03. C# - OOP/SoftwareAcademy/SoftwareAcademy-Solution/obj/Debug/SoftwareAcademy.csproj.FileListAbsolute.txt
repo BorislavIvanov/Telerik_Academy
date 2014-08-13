@@ -1,7 +1,0 @@
-C:\Users\BoBBy\Desktop\OOP-Exam-March-2013-Variant-1\SoftwareAcademy-Skeleton\obj\Debug\SoftwareAcademy.csprojResolveAssemblyReference.cache
-C:\Users\BoBBy\Desktop\OOP-Exam-March-2013-Variant-1\SoftwareAcademy-Skeleton\bin\Debug\SoftwareAcademy.exe
-C:\Users\BoBBy\Desktop\OOP-Exam-March-2013-Variant-1\SoftwareAcademy-Skeleton\bin\Debug\SoftwareAcademy.pdb
-C:\Users\BoBBy\Desktop\OOP-Exam-March-2013-Variant-1\SoftwareAcademy-Skeleton\obj\Debug\SoftwareAcademy.exe
-C:\Users\BoBBy\Desktop\OOP-Exam-March-2013-Variant-1\SoftwareAcademy-Skeleton\obj\Debug\SoftwareAcademy.pdb
-D:\#Telerik#\#GitHub Directory#\Telerik-Academy\==Exam Tasks==\03. C# - OOP\SoftwareAcademy\SoftwareAcademy-Solution\obj\Debug\SoftwareAcademy.exe
-D:\#Telerik#\#GitHub Directory#\Telerik-Academy\==Exam Tasks==\03. C# - OOP\SoftwareAcademy\SoftwareAcademy-Solution\obj\Debug\SoftwareAcademy.pdb

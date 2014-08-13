@@ -1,6 +1,0 @@
-D:\My Documents\C#\GitHub\TeamGameFifteen7\Game-Fifteen-7_Project\02. Game-Fifteen-7_Refactored\bin\Debug\GameFifteenVersionSeven.exe.config
-D:\My Documents\C#\GitHub\TeamGameFifteen7\Game-Fifteen-7_Project\02. Game-Fifteen-7_Refactored\bin\Debug\GameFifteenVersionSeven.exe
-D:\My Documents\C#\GitHub\TeamGameFifteen7\Game-Fifteen-7_Project\02. Game-Fifteen-7_Refactored\bin\Debug\GameFifteenVersionSeven.pdb
-D:\My Documents\C#\GitHub\TeamGameFifteen7\Game-Fifteen-7_Project\02. Game-Fifteen-7_Refactored\obj\Debug\GameFifteenVersionSeven.csprojResolveAssemblyReference.cache
-D:\My Documents\C#\GitHub\TeamGameFifteen7\Game-Fifteen-7_Project\02. Game-Fifteen-7_Refactored\obj\Debug\GameFifteenVersionSeven.exe
-D:\My Documents\C#\GitHub\TeamGameFifteen7\Game-Fifteen-7_Project\02. Game-Fifteen-7_Refactored\obj\Debug\GameFifteenVersionSeven.pdb

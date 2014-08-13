@@ -1,0 +1,7 @@
+C:\Users\BoBBy\Desktop\HQC-Exam-2014-Morning\Computers-problem\ConsoleClientTests\bin\Debug\ConsoleClientTests.dll
+C:\Users\BoBBy\Desktop\HQC-Exam-2014-Morning\Computers-problem\ConsoleClientTests\bin\Debug\ConsoleClientTests.pdb
+C:\Users\BoBBy\Desktop\HQC-Exam-2014-Morning\Computers-problem\ConsoleClientTests\bin\Debug\ComputersUI.ConsoleClient.exe
+C:\Users\BoBBy\Desktop\HQC-Exam-2014-Morning\Computers-problem\ConsoleClientTests\bin\Debug\ComputersUI.ConsoleClient.pdb
+C:\Users\BoBBy\Desktop\HQC-Exam-2014-Morning\Computers-problem\ConsoleClientTests\obj\Debug\ConsoleClientTests.csprojResolveAssemblyReference.cache
+C:\Users\BoBBy\Desktop\HQC-Exam-2014-Morning\Computers-problem\ConsoleClientTests\obj\Debug\ConsoleClientTests.dll
+C:\Users\BoBBy\Desktop\HQC-Exam-2014-Morning\Computers-problem\ConsoleClientTests\obj\Debug\ConsoleClientTests.pdb

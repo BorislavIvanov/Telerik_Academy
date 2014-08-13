@@ -1,5 +1,0 @@
-C:\Users\BoBBy\Desktop\OOP-Exam-March-2013-Variant-2\AcademyEcosystem-Skeleton\bin\Debug\AcademyEcosystem.exe
-C:\Users\BoBBy\Desktop\OOP-Exam-March-2013-Variant-2\AcademyEcosystem-Skeleton\bin\Debug\AcademyEcosystem.pdb
-C:\Users\BoBBy\Desktop\OOP-Exam-March-2013-Variant-2\AcademyEcosystem-Skeleton\obj\Debug\AcademyEcosystem.csprojResolveAssemblyReference.cache
-C:\Users\BoBBy\Desktop\OOP-Exam-March-2013-Variant-2\AcademyEcosystem-Skeleton\obj\Debug\AcademyEcosystem.exe
-C:\Users\BoBBy\Desktop\OOP-Exam-March-2013-Variant-2\AcademyEcosystem-Skeleton\obj\Debug\AcademyEcosystem.pdb

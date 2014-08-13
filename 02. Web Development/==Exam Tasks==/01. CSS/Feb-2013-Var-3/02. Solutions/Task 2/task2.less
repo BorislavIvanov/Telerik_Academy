@@ -1,0 +1,72 @@
+﻿body, div, ul, li, a, img {
+    margin: 0;
+    padding: 0;
+}
+
+.gradient(@colorOne, @firstPercents, @colorTwo, @secondPercents){
+    background: @colorOne;
+    background: -moz-linear-gradient(top,  @colorOne @firstPercents, @colorTwo @secondPercents);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@firstPercents,@colorOne), color-stop(@secondPercents,@colorTwo));
+    background: -webkit-linear-gradient(top,  @colorOne @firstPercents,@colorTwo @secondPercents);
+    background: -o-linear-gradient(top,  @colorOne @firstPercents,@colorTwo @secondPercents);
+    background: -ms-linear-gradient(top,  @colorOne @firstPercents,@colorTwo @secondPercents);
+    background: linear-gradient(to bottom,  @colorOne @firstPercents,@colorTwo @secondPercents);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@colorOne', endColorstr='@colorTwo',GradientType=0 );
+}
+
+body{
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+
+    #wrapper{
+        width: 960px;
+        margin-top: 25px;
+        margin-left: 25px;
+
+        .select-list{
+            text-align: left;
+
+            ul{
+                width: 150px;
+                height: 200px;
+                display: inline-block;
+                list-style-type:none;
+                .gradient(#8168ff, 0%, #ffffff, 100%);
+                border-top-left-radius: 5px;
+                overflow-y: scroll;
+
+                li{
+                    border-bottom: 1px solid black;
+                    padding: 5px 15px;
+                    
+                    &:first-letter{
+                        text-decoration: underline;
+                    }
+
+                    &.selected{
+                        background: #6c4eff;
+                    }
+                }
+            }
+
+            .all-items{
+
+                li{
+                    
+                }
+            }
+
+            .btn-unselect{
+                position: relative;
+                top: -80px;
+            }
+
+            .btn-select{
+                position: relative;
+                top: -80px;
+            }
+
+            .selected-items{
+            }
+        }
+    }
+}
