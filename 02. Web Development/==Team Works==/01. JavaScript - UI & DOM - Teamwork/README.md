@@ -26,3 +26,8 @@ Please define and implement the following assets in your project:
 * Create **animations**
  * Either for the canvas, SVG or both
 * **The application must work in the latest versions of the browsers: Google Chrome, Mozilla Firefox, Internet Explorer 10/11, Opera and Apple Safari**
+
+##Additional Requirements
+
+* Follow the best practices for producing high-quality code: correct naming, data encapsulation, strong cohesion and loose coupling
+* Use GIT as a source control system (GitHub preferable)
