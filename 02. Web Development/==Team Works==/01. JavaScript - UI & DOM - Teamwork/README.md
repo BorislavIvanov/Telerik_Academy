@@ -43,3 +43,13 @@ If you have a chance, time and a suitable situation, you might add some of the f
 
 * Completely finished project is not obligatory required. It will not be a big problem if your project is not completely finished or is not working greatly. This team work project is for educational purpose. Its main purpose it to experience object-oriented modeling and OOP in a real-world project and to get some experience in team working and team collaboration with a source control system.
 * Implementation of server-side logic with ASP.NET, PHP, Java or Node.js
+
+##Deliverables
+* Put the following in a ZIP archive and submit it (each team member submits the same file):
+* The complete source code.
+* Brief documentation of your project (2-3 pages). It should provide the following information (in brief):
+ * Team name and list of team members
+ * Project purpose – what problem do you solve?
+ * The URL of your Git repository
+ * Any other information (optionally)
+* Optionally provide a PowerPoint presentation designed for the project defense.
