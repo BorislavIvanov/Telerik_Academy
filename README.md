@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-<h1 align="center">Telerik Academy</h1>
-<a href="http://academy.telerik.com/"><img href="https://raw.githubusercontent.com/BorislavIvanov/Telerik_Academy/master/Resources/Images/Telerik%20Logo.png"></a>
-=======
 [![alt text](https://raw.githubusercontent.com/BorislavIvanov/Telerik_Academy/master/Resources/Images/Telerik%20Logo.png "Telerik Academy Logo")](http://academy.telerik.com/)
->>>>>>> origin/master
 
 #Telerik Academy 2013 / 2014
 
