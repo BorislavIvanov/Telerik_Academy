@@ -13,3 +13,16 @@ The project can be a game, web statistics or anything else. Sample applications:
  * Solitaire
  * Bridge-Belote
  * Paint-like application – drawing shapes, lines, etc
+
+##General Requirements
+
+Please define and implement the following assets in your project:
+
+**Requirements for the JavaScript client application**
+* Use the **HTML5 canvas**
+ * Or a Canvas framework like KineticJS, paper.js or other.
+* Use **SVG**
+ * Or a SVG framework like Raphael JS or other
+* Create **animations**
+ * Either for the canvas, SVG or both
+* **The application must work in the latest versions of the browsers: Google Chrome, Mozilla Firefox, Internet Explorer 10/11, Opera and Apple Safari**
