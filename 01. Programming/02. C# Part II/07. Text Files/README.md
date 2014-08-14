@@ -38,11 +38,12 @@ Ensure it will work with large files (e.g. 100 MB).
 
 10. Write a program that extracts from given XML file all the text without the tags. 
 Example:
+```xml
 <?xml version="1.0"><student><name>Pesho</name>
 <age>21</age><interests count="3"><interest> 
 Games</instrest><interest>C#</instrest><interest> 
 Java</instrest></interests></student>
-
+```
 11. Write a program that deletes from a text file all words that start with the prefix "test". 
 Words contain only the symbols 0...9, a...z, A…Z, _.
 
