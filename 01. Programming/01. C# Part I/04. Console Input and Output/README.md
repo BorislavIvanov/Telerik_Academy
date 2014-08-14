@@ -25,7 +25,7 @@ them such that the reminder of the division by 5 is 0 (inclusive). Example: p(17
 
 10. Write a program to calculate the sum (with accuracy of 0.001): 1 + 1/2 - 1/3 + 1/4 - 1/5 + ...
 
-11. * Implement the "Falling Rocks" game in the text console. A small dwarf stays at the bottom of the screen and
+11. (Difficult task) Implement the "Falling Rocks" game in the text console. A small dwarf stays at the bottom of the screen and
 can move left and right (by the arrows keys). A number of rocks of different sizes and forms constantly fall down and you need to avoid a crash.
 Rocks are the symbols ^, @, *, &, +, %, $, #, !, ., ;, - distributed with appropriate density. The dwarf is (O).
 Ensure a constant game speed by Thread.Sleep(150).
