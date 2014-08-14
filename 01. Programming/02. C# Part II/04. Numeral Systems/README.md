@@ -1,6 +1,6 @@
 ##Numeral Systems
 
-Exercises:
+**Exercises**:
 
 01. Write a program to convert decimal numbers to their binary representation.
 
