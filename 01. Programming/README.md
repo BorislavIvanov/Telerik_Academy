@@ -39,6 +39,10 @@
 * **10. Unit Testing** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/04.%20C%23%20High%20Quality%20Code/10.%20Unit%20Testing)
 * **11. Test-Driven Development (TDD)** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/04.%20C%23%20High%20Quality%20Code/11.%20Test-Driven%20Development%20(TDD))
 * **12. Refactoring** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/04.%20C%23%20High%20Quality%20Code/12.%20Refactoring)
+* **13. Debugging** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/04.%20C%23%20High%20Quality%20Code/13.%20Debugging)
+* **14. Tools for Developers** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/04.%20C%23%20High%20Quality%20Code/14.%20Tools%20for%20Developers)
+* **15. Design Patterns** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/04.%20C%23%20High%20Quality%20Code/15.%20Design%20Patterns)
+* **16. Software Engineering Fundamentals** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/04.%20C%23%20High%20Quality%20Code/16.%20Software%20Engineering%20Fundamentals)
 
 **Team Works**
 * **01. C# Part One - Teamwork - SnakeTheGame** ([*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/%3D%3DTeam%20Works%3D%3D/01.%20C%23%20Part%20One%20-%20Teamwork%20-%20SnakeTheGame)) - [*Teamwork Task*](https://github.com/BorislavIvanov/Telerik_Academy/blob/master/01.%20Programming/%3D%3DTeam%20Works%3D%3D/01.%20C%23%20Part%20One%20-%20Teamwork%20-%20SnakeTheGame/README.md)
