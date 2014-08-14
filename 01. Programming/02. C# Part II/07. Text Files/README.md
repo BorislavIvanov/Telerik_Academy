@@ -17,17 +17,13 @@ matrix an area of size 2 x 2 with a maximal sum of its elements. The first line 
 the size of matrix N. Each of the next N lines contain N numbers separated by space. The output should be
 a single number in a separate text file. 
 Example: Size 4
-2 3 3 4
-0 2 3 4 -> 17
-3 7 1 2
-4 3 3 2
+
+![](https://raw.githubusercontent.com/BorislavIvanov/Telerik_Academy/master/Resources/Images/Text%20Files%20-%20Exercise%205.JPG)
 
 06. Write a program that reads a text file containing a list of strings, sorts them and saves them to another text file. 
 Example:
-	Ivan			George
-	Peter	   --->    	Ivan
-	Maria			Maria
-	George			Peter
+
+![](https://raw.githubusercontent.com/BorislavIvanov/Telerik_Academy/master/Resources/Images/Text%20Files%20-%20Exercise%206.JPG)
 
 07. Write a program that replaces all occurrences of the substring "start" with the substring "finish" in a text file.
 Ensure it will work with large files (e.g. 100 MB).
