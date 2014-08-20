@@ -24,14 +24,14 @@ Example: ``3, -2, 1, 1, 8 -> 1+1-2=0``.
 10. Write a program that applies bonus scores to given scores in the range ``[1..9]``. The program reads a digit as an input.
  * If the digit is between ``1`` and ``3``, the program multiplies it by ``10``; 
  * If it is between ``4`` and ``6``, multiplies it by ``100``;
- * If it is between ``7`` and ``9``, multiplies it by ``1000``. 
- * If it is ``zero`` or if the value is ``not a digit``, the program must report an ``error``.
+ * If it is between ``7`` and ``9``, multiplies it by ``1000``;
+ * If it is ``zero`` or if the value is ``not a digit``, the program must report an ``error``;
 Use a switch statement and at the end print the calculated new value in the console.
 
 11. (Difficult task) Write a program that converts a number in the range ``[0...999]`` to a text corresponding to its English pronunciation. 
 Examples:
-	0 -> "Zero"
-	273 -> "Two hundred seventy three"
-	400 -> "Four hundred"
-	501 -> "Five hundred and one"
-	711 -> "Seven hundred and eleven"
+	``0 -> "Zero"``, 
+	``273 -> "Two hundred seventy three"``, 
+	``400 -> "Four hundred"``, 
+	``501 -> "Five hundred and one"``, 
+	``711 -> "Seven hundred and eleven"``;
