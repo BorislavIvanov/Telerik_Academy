@@ -19,7 +19,7 @@ Each member of the ``Fibonacci sequence`` (except the first two) is a sum of the
 
 08. Write a program that calculates the greatest common divisor (GCD) of given two numbers. Use the ``Euclidean algorithm`` (find it in Internet).
 
-09. In the combinatorial mathematics, the ``Catalan numbers`` are calculated by the following formula: ``(2*n)! / (n + 1)! * n!``
+09. In the combinatorial mathematics, the ``Catalan numbers`` are calculated by the following formula: [](https://github.com/BorislavIvanov/Telerik_Academy/blob/master/Resources/Exercise%20images/Loops%20-%20Exercise%209.JPG)
 
 10. Write a program to calculate the Nth Catalan number by given ``N``.
 
@@ -27,11 +27,7 @@ Each member of the ``Fibonacci sequence`` (except the first two) is a sum of the
 The cards should be printed with their ``English names``. Use nested for loops and switch-case.
 
 12. Write a program that reads from the console a positive integer number ``N (N < 20)`` and outputs a matrix like the following:
-N=3       N=4
-1 2 3     1 2 3 4
-2 3 4     2 3 4 5
-3 4 5     3 4 5 6
-          4 5 6 7
+[](https://github.com/BorislavIvanov/Telerik_Academy/blob/master/Resources/Exercise%20images/Loops%20-%20Exercise%2012.JPG)
 
 13. (Difficult task) Write a program that calculates for given N how many trailing zeros present at the end of the number N!. Examples:
 	``N = 10 -> N! = 3628800 -> 2``, 
@@ -39,4 +35,6 @@ N=3       N=4
 	Does your program work for ``N = 50 000``?
 	Hint: The trailing zeros in ``N!`` are equal to the number of its prime divisors of value ``5``. Think why!
 
-14. (Difficult task) Write a program that reads a positive integer number ``N (N < 20)`` from console and outputs in the console the numbers ``1 ... N`` numbers arranged as a spiral. Example for N = 4
+14. (Difficult task) Write a program that reads a positive integer number ``N (N < 20)`` from console and outputs in the console the numbers ``1 ... N`` numbers arranged as a spiral. 
+Example for N = 4
+[](https://github.com/BorislavIvanov/Telerik_Academy/blob/master/Resources/Exercise%20images/Loops%20-%20Exercise%2014.JPG)
