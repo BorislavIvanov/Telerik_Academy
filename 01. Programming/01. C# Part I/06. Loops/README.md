@@ -19,7 +19,8 @@ Each member of the ``Fibonacci sequence`` (except the first two) is a sum of the
 
 08. Write a program that calculates the greatest common divisor (GCD) of given two numbers. Use the ``Euclidean algorithm`` (find it in Internet).
 
-09. In the combinatorial mathematics, the ``Catalan numbers`` are calculated by the following formula: ![](https://github.com/BorislavIvanov/Telerik_Academy/blob/master/Resources/Exercise%20images/Loops%20-%20Exercise%209.JPG)
+09. In the combinatorial mathematics, the ``Catalan numbers`` are calculated by the following formula:
+![](https://github.com/BorislavIvanov/Telerik_Academy/blob/master/Resources/Exercise%20images/Loops%20-%20Exercise%209.JPG)
 
 10. Write a program to calculate the Nth Catalan number by given ``N``.
 
@@ -27,6 +28,7 @@ Each member of the ``Fibonacci sequence`` (except the first two) is a sum of the
 The cards should be printed with their ``English names``. Use nested for loops and switch-case.
 
 12. Write a program that reads from the console a positive integer number ``N (N < 20)`` and outputs a matrix like the following:
+
 ![](https://github.com/BorislavIvanov/Telerik_Academy/blob/master/Resources/Exercise%20images/Loops%20-%20Exercise%2012.JPG)
 
 13. (Difficult task) Write a program that calculates for given N how many trailing zeros present at the end of the number N!. Examples:
@@ -37,4 +39,5 @@ The cards should be printed with their ``English names``. Use nested for loops a
 
 14. (Difficult task) Write a program that reads a positive integer number ``N (N < 20)`` from console and outputs in the console the numbers ``1 ... N`` numbers arranged as a spiral. 
 Example for N = 4
+
 ![](https://github.com/BorislavIvanov/Telerik_Academy/blob/master/Resources/Exercise%20images/Loops%20-%20Exercise%2014.JPG)
