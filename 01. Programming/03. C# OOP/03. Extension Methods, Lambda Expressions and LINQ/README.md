@@ -20,7 +20,7 @@ Use the built-in extension methods and lambda expressions. Rewrite the same with
 
 07. Using delegates write a class Timer that has can execute certain method at each t seconds.
 
-08. /* Read in MSDN about the keyword event in C# and how to publish events. 
+08. (Difficult task) Read in MSDN about the keyword event in C# and how to publish events. 
 Re-implement the above using .NET events and following the best practices.
 
 09. Create a class student with properties FirstName, LastName, FN, Tel, Email, Marks (a List<int>), GroupNumber. 
@@ -40,7 +40,7 @@ Use LINQ.
 
 15. Extract all Marks of the students that enrolled in 2006. (The students from 2006 have 06 as their 5-th and 6-th digit in the FN).
 
-16. /* Create a class Group with properties GroupNumber and DepartmentName. Introduce a property Group in the Student class. 
+16. (Difficult task) Create a class Group with properties GroupNumber and DepartmentName. Introduce a property Group in the Student class. 
 Extract all students from "Mathematics" department. Use the Join operator.
 
 17. Write a program to return the string with maximum length from an array of strings. 
