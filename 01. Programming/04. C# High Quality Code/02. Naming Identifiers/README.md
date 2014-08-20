@@ -63,4 +63,4 @@
   }
   ```
 
-4. Refactor and improve the naming in the C# source project “3. Naming-Identifiers-Homework.zip”. You are allowed to make other improvements in the code as well (not only naming) as well as to fix bugs.
+4. Refactor and improve the naming in the C# source project [“3. Naming-Identifiers-Homework.zip”](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/04.%20C%23%20High%20Quality%20Code/02.%20Naming%20Identifiers/Task%204%20files). You are allowed to make other improvements in the code as well (not only naming) as well as to fix bugs.
