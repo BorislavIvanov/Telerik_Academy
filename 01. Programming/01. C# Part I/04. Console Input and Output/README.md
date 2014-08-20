@@ -2,16 +2,15 @@
 
 **Exercises**:
 
-01. Write a program that reads 3 integer numbers from the console and prints their sum.
+01. Write a program that reads ``3`` integer numbers from the console and prints their ``sum``.
 
-02. Write a program that reads the radius r of a circle and prints its perimeter and area.
+02. Write a program that reads the ``radius r`` of a circle and prints its ``perimeter`` and ``area``.
 
-03. A company has name, address, phone number, fax number, web site and manager.
-The manager has first name, last name, age and a phone number. Write a program that reads the information
-about a company and its manager and prints them on the console.
+03. A company has ``name``, ``address``, ``phone number``, ``fax number``, ``web site`` and ``manager``.
+The manager has ``first name``, ``last name``, ``age`` and a ``phone number``. Write a program that reads the information about a company and its manager and prints them on the console.
 
-04. Write a program that reads two positive integer numbers and prints how many numbers p exist between
-them such that the reminder of the division by 5 is 0 (inclusive). Example: p(17,25) = 2.
+04. Write a program that reads ``two`` positive ``integer numbers`` and prints how many numbers p exist between
+them such that the reminder of the division by ``5`` is ``0`` (inclusive). Example: ``p(17,25) = 2``.
 
 05. Write a program that gets two numbers from the console and prints the greater of them. Don’t use if statements.
 
