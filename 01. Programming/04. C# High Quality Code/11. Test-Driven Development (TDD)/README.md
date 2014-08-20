@@ -3,6 +3,7 @@
 **Exercise:**
 
 Finish the "Poker" project given in the Visual Studio Solution "11. Test-Driven-Development-Demo+Homework.zip" using TDD.
+
 1. Write a class Card implementing the ICard interface. Implement the properties. Write a constructor. Implement the ToString() method. Test all cases.
 2. Write a class Hand implementing the IHand interface. Implement the properties. Write a constructor. Implement the ToString() method. Test all cases.
 3. Write a class PokerHandsChecker (+ tests) and start implementing the IPokerHandsChecker interface. Implement the IsValidHand(IHand). A hand is valid when it consists of exactly 5 different cards.
