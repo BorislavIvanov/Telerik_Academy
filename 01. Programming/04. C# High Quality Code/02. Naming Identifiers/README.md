@@ -48,3 +48,19 @@
     }
   }
   ```
+  
+3. Refactor the following examples to produce code with well-named identifiers in JavaScript:
+  ```javascript
+  function _ClickON_TheButton( THE_event, argumenti) {
+    var moqProzorec= window;
+    var brauzyra = moqProzorec.navigator.appCodeName;
+    var ism=brauzyra=="Mozilla";
+    if(ism)  {
+      alert("Yes");  }
+    else
+    {
+      alert("No");  }
+  }
+  ```
+
+4. Refactor and improve the naming in the C# source project “3. Naming-Identifiers-Homework.zip”. You are allowed to make other improvements in the code as well (not only naming) as well as to fix bugs.
