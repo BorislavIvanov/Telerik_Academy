@@ -25,6 +25,6 @@ indexer for accessing the matrix content and ToString().
 07. (Difficult task) Write a program that finds the largest area of equal neighbor elements in a rectangular matrix and prints its size.
 Example:
 
-![](https://raw.githubusercontent.com/BorislavIvanov/Telerik_Academy/master/Resources/Images/Multidimensional%20Arrays%20-%20Exercise%207.JPG)
+![](https://raw.githubusercontent.com/BorislavIvanov/Telerik_Academy/master/Resources/Exercise%20images/Multidimensional%20Arrays%20-%20Exercise%207.JPG)
 
 Hint: you can use the algorithm "Depth-first search" or "Breadth-first search" (find them in Wikipedia).
