@@ -45,7 +45,7 @@
 * **16. Software Engineering Fundamentals** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/04.%20C%23%20High%20Quality%20Code/16.%20Software%20Engineering%20Fundamentals)
 
 **C# Data Structures and Algorithms**
-* **01. Data Structures, Algorithms and Complexity** ([*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/05.%20C%23%20Data%20Structures%20and%20Algorithms/01.%20Data%20Structures%2C%20Algorithms%20and%20Complexity))
+* **01. Data Structures, Algorithms and Complexity** -  [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/05.%20C%23%20Data%20Structures%20and%20Algorithms/01.%20Data%20Structures%2C%20Algorithms%20and%20Complexity)
 
 **Team Works**
 * **01. C# Part One - Teamwork - SnakeTheGame** ([*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/%3D%3DTeam%20Works%3D%3D/01.%20C%23%20Part%20One%20-%20Teamwork%20-%20SnakeTheGame)) - [*Teamwork Task*](https://github.com/BorislavIvanov/Telerik_Academy/blob/master/01.%20Programming/%3D%3DTeam%20Works%3D%3D/01.%20C%23%20Part%20One%20-%20Teamwork%20-%20SnakeTheGame/README.md)
