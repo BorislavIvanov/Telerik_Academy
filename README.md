@@ -7,6 +7,7 @@
 * **C# Part Two** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/02.%20C%23%20Part%20II)
 * **C# OOP** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP)
 * **C# High Quality Code** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/04.%20C%23%20High%20Quality%20Code)
+* **C# Data Structures and Algorithms** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/05.%20C%23%20Data%20Structures%20and%20Algorithms)
 
 **Web Development**
 * **HTML 5** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/01.%20HTML%205)
