@@ -4,7 +4,7 @@
 
 1. Create the following database diagram in SQL Server:
 
-![](https://raw.githubusercontent.com/BorislavIvanov/Telerik_Academy/master/Resources/Exercise%20images/Database%20Modeling%20-%20Exercise%201.JPG)
+ ![](https://raw.githubusercontent.com/BorislavIvanov/Telerik_Academy/master/Resources/Exercise%20images/Database%20Modeling%20-%20Exercise%201.JPG)
 
 2. Fill some sample data in the tables with SQL Server Management Studio.
 
