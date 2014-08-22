@@ -17,4 +17,4 @@
 * **JavaScript OOP** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/05.%20JavaScript%20OOP)
 * **JavaScript Applications** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/06.%20JavaScript%20Applications)
 
-**Databases** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/03.%20Databases)
+[**Databases**](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/03.%20Databases)
