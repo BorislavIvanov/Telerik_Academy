@@ -9,7 +9,7 @@
 5. Write a SQL query to find all department names.
 6. Write a SQL query to find the salary of each employee.
 7. Write a SQL to find the full name of each employee.
-8. Write a SQL query to find the email addresses of each employee (by his first and last name). Consider that the mail domain is telerik.com. Emails should look like “John.Doe@telerik.com". The produced column should be named "Full Email Addresses".
+8. Write a SQL query to find the email addresses of each employee (by his first and last name). Consider that the mail domain is telerik.com. Emails should look like ``“John.Doe@telerik.com"``. The produced column should be named "Full Email Addresses".
 9. Write a SQL query to find all different employee salaries.
 10. Write a SQL query to find all information about the employees whose job title is ``“Sales Representative“``.
 11. Write a SQL query to find the names of all employees whose first name starts with ``"SA"``.
