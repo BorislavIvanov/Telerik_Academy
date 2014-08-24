@@ -1,0 +1,12 @@
+BEGIN TRAN
+ 
+DELETE FROM Users
+WHERE Username = 'IliqDimitrov'
+ 
+DELETE FROM Users
+WHERE UserID = 8
+ 
+DELETE FROM Groups
+WHERE GroupID = 3
+ 
+ROLLBACK TRAN
