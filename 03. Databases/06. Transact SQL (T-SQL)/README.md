@@ -11,5 +11,5 @@
 07. Define a function in the database ``TelerikAcademy`` that returns all Employee's names (``first`` or ``middle`` or ``last name``) and all town's names that are comprised of given set of letters. Example ``'oistmiahf'`` will return ``'Sofia'``, ``'Smith'``, … but not ``'Rob'`` and ``'Guy'``.
 08. Using database cursor write a ``T-SQL`` script that scans all employees and their addresses and prints all pairs of employees that live in the same town.
 09. (Difficult task) Write a ``T-SQL`` script that shows for each town a list of all employees that live in it. Sample output:
-Sofia -> Svetlin Nakov, Martin Kulov, George Denchev
-Ottawa -> Jose Saraiva
+``Sofia -> Svetlin Nakov, Martin Kulov, George Denchev``
+``Ottawa -> Jose Saraiva``
