@@ -10,6 +10,9 @@
 06. Create another table – ``Logs(LogID, AccountID, OldSum, NewSum)``. Add a trigger to the ``Accounts`` table that enters a new entry into the ``Logs`` table every time the sum on an account changes.
 07. Define a function in the database ``TelerikAcademy`` that returns all Employee's names (``first`` or ``middle`` or ``last name``) and all town's names that are comprised of given set of letters. Example ``'oistmiahf'`` will return ``'Sofia'``, ``'Smith'``, … but not ``'Rob'`` and ``'Guy'``.
 08. Using database cursor write a ``T-SQL`` script that scans all employees and their addresses and prints all pairs of employees that live in the same town.
-09. (Difficult task) Write a ``T-SQL`` script that shows for each town a list of all employees that live in it. Sample output:
-``Sofia -> Svetlin Nakov, Martin Kulov, George Denchev``
-``Ottawa -> Jose Saraiva``
+09. (Difficult task) Write a ``T-SQL`` script that shows for each town a list of all employees that live in it. Sample output: ``Sofia -> Svetlin Nakov, Martin Kulov, George Denchev``, ``Ottawa -> Jose Saraiva``.
+10. Define a ``.NET`` aggregate function StrConcat that takes as input a sequence of strings and return a single string that consists of the input strings separated by ','. For example the following ``SQL`` statement should return a single string:
+```SQL
+SELECT StrConcat(FirstName + ' ' + LastName)
+FROM Employees
+```
