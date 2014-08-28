@@ -6,7 +6,7 @@
 
 ![](https://raw.githubusercontent.com/BorislavIvanov/Telerik_Academy/master/Resources/Exercise%20images/Trees%20and%20Traversals%20-%20Exercise%201.JPG)
 
-Write a program to read the tree and find:
+ Write a program to read the tree and find:
  a) the root node.
  b) all leaf nodes.
  c) all middle nodes.
