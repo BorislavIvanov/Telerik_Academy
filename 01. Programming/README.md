@@ -46,6 +46,9 @@
 
 **C# Data Structures and Algorithms**
 * **01. Data Structures, Algorithms and Complexity** -  [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/05.%20C%23%20Data%20Structures%20and%20Algorithms/01.%20Data%20Structures%2C%20Algorithms%20and%20Complexity)
+* **02. Linear Data Structures** -  [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/05.%20C%23%20Data%20Structures%20and%20Algorithms/02.%20Linear%20Data%20Structures)
+* **03. Trees And Traversals** -  [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/05.%20C%23%20Data%20Structures%20and%20Algorithms/03.%20Trees%20And%20Traversals)
+* **04. Dictionaries, HashTables And Sets** -  [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/05.%20C%23%20Data%20Structures%20and%20Algorithms/04.%20Dictionaries%2C%20HashTables%20And%20Sets)
 
 **Team Works**
 * **01. C# Part One - Teamwork - SnakeTheGame** ([*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/%3D%3DTeam%20Works%3D%3D/01.%20C%23%20Part%20One%20-%20Teamwork%20-%20SnakeTheGame)) - [*Teamwork Task*](https://github.com/BorislavIvanov/Telerik_Academy/blob/master/01.%20Programming/%3D%3DTeam%20Works%3D%3D/01.%20C%23%20Part%20One%20-%20Teamwork%20-%20SnakeTheGame/README.md)
