@@ -2,27 +2,6 @@
 
 **Exercises:**
 
-01. A text file students.txt holds information about students and their courses in the following format:
-
-  Kiril  | Ivanov   | C#
-  
-  Stefka | Nikolova | SQL
-  
-  Stela  | Mineva   | Java
-  
-  Milena | Petrova  | C#
-  
-  Ivan   | Grigorov | C#
-  
-  Ivan   | Kolev    | SQL
-  
-  
-  Using ``SortedDictionary<K,T>`` print the courses in alphabetical order and for each of them prints the students ordered   by family and then by name:
-  
-  C#: Ivan Grigorov, Kiril Ivanov, Milena Petrova
-  
-  Java: Stela Mineva
-  
-  SQL: Ivan Kolev, Stefka Nikolova
-
-02. A large trade company has millions of articles, each described by barcode, vendor, title and price. Implement a data structure to store them that allows fast retrieval of all articles in given price range [x…y]. Hint: use ``OrderedMultiDictionary<K,T>`` from ``Wintellect's Power Collections`` for .NET. 
+01. Implement a class ``PriorityQueue<T>`` based on the data structure ``"binary heap"``.
+02. Write a program to read a large collection of products (name + price) and efficiently find the first 20 products in the price range [a…b]. Test for ``500 000 products`` and ``10 000 price`` searches.
+Hint: you may use ``OrderedBag<T>`` and sub-ranges.
