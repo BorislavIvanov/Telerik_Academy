@@ -20,5 +20,7 @@
   Using ``SortedDictionary<K,T>`` print the courses in alphabetical order and for each of them prints the students ordered by family and then by name:
   
   C#: Ivan Grigorov, Kiril Ivanov, Milena Petrova
+  
   Java: Stela Mineva
+  
   SQL: Ivan Kolev, Stefka Nikolova
