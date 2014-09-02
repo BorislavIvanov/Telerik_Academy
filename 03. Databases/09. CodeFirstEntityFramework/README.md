@@ -2,7 +2,7 @@
 
 **Exercises:**
 
-01. Using c0de first approach, create database for student system with the following tables:
+01. Using code first approach, create database for student system with the following tables:
  * ``Students`` (with Id, Name, Number, etc.)
  * ``Courses`` (Name, Description, Materials, etc.)
  * ``StudentsInCourses`` (many-to-many relationship)
