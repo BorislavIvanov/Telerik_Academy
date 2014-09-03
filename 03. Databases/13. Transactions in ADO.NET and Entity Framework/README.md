@@ -2,7 +2,7 @@
 
 **Exercises:**
 
-01. Suppose you are creating a simple engine for an ATM machine. Create a new database "ATM" in SQL Server to hold the accounts of the card holders and the balance (money) for each account. Add a new table CardAccounts with the following fields: 
+01. Suppose you are creating a simple engine for an ATM machine. Create a new database ``"ATM"`` in ``SQL Server`` to hold the accounts of the card holders and the balance (money) for each account. Add a new table ``CardAccounts`` with the following fields: 
  * Id (int)
  * CardNumber (char(10))
  * CardPIN (char(4))
@@ -14,5 +14,5 @@
  * The amount on the account (CardCash) is evaluated to see whether it is bigger than the requested sum (more than $200).
  * The ATM machine pays the required sum (e.g. $200) and stores in the table CardAccounts the new amount (CardCash = CardCash - 200).
 
-03. Extend the project from the previous exercise and add a new table TransactionsHistory with fields (Id, CardNumber, TransactionDate, Ammount) containing information about all money retrievals on all accounts.
+03. Extend the project from the previous exercise and add a new table ``TransactionsHistory`` with fields (``Id``, ``CardNumber``, ``TransactionDate``, ``Ammount``) containing information about all money retrievals on all accounts.
  Modify the program logic so that it saves historical information (logs) in the new table after each successful money withdrawal.
