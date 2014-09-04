@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<group:students xmlns:group ="http://www.qa.com/groups/students/qa/2005">
+  <group:student>
+    <group:name>Kiril Stoilov</group:name>
+    <group:sex>Male</group:sex>
+    <group:birthdate>12.06.1985</group:birthdate>
+    <group:phone>0881257419</group:phone>
+    <group:e-mail>k_stoilov@abv.bg</group:e-mail>
+    <group:cource>2</group:cource>
+    <group:specialty>QA</group:specialty>
+    <group:faculty-number>051482</group:faculty-number>
+  </group:student>
+</group:students>

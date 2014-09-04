@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<students xmlns:student ="urn:academy-com:Students"
+          xmlns:exams ="urn:academy-com:Exams">
+  <student>
+    <name>Kiril Stoilov</name>
+    <sex>Male</sex>
+    <birthdate>12.06.1985</birthdate>
+    <phone>0881257419</phone>
+    <e-mail>k_stoilov@abv.bg</e-mail>
+    <cource>2</cource>
+    <specialty>QA</specialty>
+    <faculty-number>051482</faculty-number>
+    <exams>
+      <name>QA-Part 2</name>
+      <tutor>Mariq</tutor>
+      <score>88</score>
+    </exams>
+  </student>
+  <student>
+    <name>Vencislav Hadjiev</name>
+    <sex>Male</sex>
+    <birthdate>22.10.1989</birthdate>
+    <phone>0886479105</phone>
+    <e-mail>venci_hadjiev@abv.bg</e-mail>
+    <cource>1</cource>
+    <specialty>WebDevelopment</specialty>
+    <faculty-number>084125</faculty-number>
+    <exams>
+      <name>JavaScript Applications</name>
+      <tutor>Veselin</tutor>
+      <score>92</score>
+    </exams>
+  </student>
+</students>
