@@ -43,3 +43,9 @@
  ```
  <html><head><title>Sample site</title></head><body><div>text<div>more text</div>and more...</div>in body</body></html>
  ```
+ 
+ Result:
+ ```
+ Sample sitetextmore textand more...in body
+
+ ```
