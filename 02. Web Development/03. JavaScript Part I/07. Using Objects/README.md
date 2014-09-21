@@ -16,3 +16,21 @@
  
  * Attach it to the array class.
  * Read about prototype and how to attach methods.
+
+03. Write a function that makes a deep copy of an object
+ * The function should work for both primitive and reference types
+
+04. Write a function that checks if a given object contains a given property
+ 
+ var obj  = …;
+
+ var hasProp = hasProperty(obj,"length");
+
+05. Write a function that finds the youngest person in a given array of persons and prints his/hers full name
+Each person have properties firstname, lastname and age, as shown:
+
+JavaScript```
+var persons = [
+  {firstname : "Gosho", lastname: "Petrov", age: 32}, 
+  {firstname : "Bay", lastname: "Ivan", age: 81},…];
+```
