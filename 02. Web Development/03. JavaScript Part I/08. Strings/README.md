@@ -15,3 +15,20 @@
  We are living in an yellow submarine. We don't have anything else. Inside the submarine is very tight. So we are drinking all the  day. We will move out of it in 5 days.
  ```
  The result is: 9.
+
+04. You are given a text. Write a function that changes the text in all regions:
+ * <upcase>text</upcase> to uppercase.
+ * <lowcase>text</lowcase> to lowercase
+ * <mixcase>text</mixcase> to mix casing(random)
+
+ ```
+ We are <mixcase>living</mixcase> in a <upcase>yellow submarine</upcase>. We <mixcase>don't</mixcase> have <lowcase>anything</lowcase> else.
+ ```
+ 
+ The expected result:
+ 
+ ```
+ We are LiVinG in a YELLOW SUBMARINE. We dOn'T have anything else.
+ ```
+ 
+ Regions can be nested
