@@ -1,6 +1,6 @@
 #Semantic Web
 
-**Exercises: **
+**Exercises:**
 
 01. Refactor the refactoring-homework.html web page and make its HTML semantic.
 
