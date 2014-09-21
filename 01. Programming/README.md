@@ -52,6 +52,7 @@
 * **05. Advanced Data Structures** -  [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/05.%20C%23%20Data%20Structures%20and%20Algorithms/05.%20Advanced%20Data%20Structures)
 * **06. Data Structures Efficiency** -  [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/05.%20C%23%20Data%20Structures%20and%20Algorithms/06.%20Data%20Structures%20Efficiency)
 * **07. Recursion** -  [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/05.%20C%23%20Data%20Structures%20and%20Algorithms/07.%20Recursion)
+* **08. Sorting and Searching Algorithms** -  [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/05.%20C%23%20Data%20Structures%20and%20Algorithms/08.%20Sorting%20and%20Searching%20Algorithms)
 
 **Team Works**
 * **01. C# Part One - Teamwork - SnakeTheGame** ([*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/%3D%3DTeam%20Works%3D%3D/01.%20C%23%20Part%20One%20-%20Teamwork%20-%20SnakeTheGame)) - [*Teamwork Task*](https://github.com/BorislavIvanov/Telerik_Academy/blob/master/01.%20Programming/%3D%3DTeam%20Works%3D%3D/01.%20C%23%20Part%20One%20-%20Teamwork%20-%20SnakeTheGame/README.md)
