@@ -70,3 +70,12 @@
  ```
  <p>Please visit [URL=http://academy.telerik. com]our site[/URL] to choose a training course. Also visit [URL=www.devbg.org]our forum[/URL] to discuss the courses.</p>
  ```
+
+09. Write a function for extracting all email addresses from given text. All substrings that match the format ``<identifier>@<host>…<domain>`` should be recognized as emails. Return the emails as array of strings.
+
+10. Write a program that extracts from a given text all palindromes, e.g. ``"ABBA"``, ``"lamal"``, ``"exe"``.
+ 
+ ```
+ var str = stringFormat("Hello {0}!","Peter");
+ //str = "Hello Peter!";
+ ```
