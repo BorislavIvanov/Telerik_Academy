@@ -9,9 +9,6 @@
  * Check if three segment lines can form a triangle
 
 02. Write a function that removes all elements with a given value
- 
- * Attach it to the array class.
- * Read about prototype and how to attach methods.
 
  ```
  var arr = [1,2,1,4,1,3,4,1,111,3,2,1,"1"];
