@@ -1,6 +1,6 @@
-01. Write a script that allocates array of 20 integers and initializes each element by its index multiplied by 5. Print the obtained array on the console.
+01. Write a script that allocates array of ``20 integers`` and initializes each element by its index multiplied by 5. Print the obtained array on the console.
 
-02. Write a script that compares two char arrays lexicographically (letter by letter).
+02. Write a script that compares ``two char`` arrays lexicographically (letter by letter).
 
 03. Write a script that finds the maximal sequence of equal elements in an array.
  
@@ -11,11 +11,13 @@
 04. Write a script that finds the maximal increasing sequence in an array. 
  Example: 
  
- {3, 2, 3, 4, 2, 2, 4}  {2, 3, 4}.
+ {3, 2, 3, 4, 2, 2, 4} -> {2, 3, 4}.
 
-05. Sorting an array means to arrange its elements in increasing order. Write a script to sort an array. Use the "selection sort" algorithm: Find the smallest element, move it at the first position, find the smallest from the rest, move it at the second position, etc.Hint: Use a second array
+05. Sorting an array means to arrange its elements in increasing order. Write a script to sort an array. Use the ``"selection sort"`` algorithm: Find the smallest element, move it at the first position, find the smallest from the rest, move it at the second position, etc.
 
-06. Write a program that finds the most frequent number in an array. 
+ ``Hint: Use a second array``
+
+06. Write a program that finds the ``most frequent number`` in an array. 
  
  Example:
  
