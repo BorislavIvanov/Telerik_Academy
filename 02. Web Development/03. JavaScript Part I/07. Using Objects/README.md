@@ -10,10 +10,11 @@
 
 02. Write a function that removes all elements with a given value
 
+```
  var arr = [1,2,1,4,1,3,4,1,111,3,2,1,"1"];
-
  arr.remove(1); //arr = [2,4,3,4,111,3,2,"1"];
- 
+```
+
  * Attach it to the array class.
  * Read about prototype and how to attach methods.
 
@@ -21,10 +22,11 @@
  * The function should work for both primitive and reference types
 
 04. Write a function that checks if a given object contains a given property
- 
- var obj  = …;
 
+```
+ var obj  = …;
  var hasProp = hasProperty(obj,"length");
+```
 
 05. Write a function that finds the youngest person in a given array of persons and prints his/hers full name
 Each person have properties firstname, lastname and age, as shown:
@@ -33,4 +35,12 @@ Each person have properties firstname, lastname and age, as shown:
 var persons = [
   {firstname : "Gosho", lastname: "Petrov", age: 32}, 
   {firstname : "Bay", lastname: "Ivan", age: 81},…];
+```
+06. Write a function that groups an array of persons by age, first or last name. The function must return an associative array, with keys - the groups, and values -arrays with persons in this groups
+ * Use function overloading (i.e. just one function)
+
+```
+var persons = {…};
+var groupedByFname = group(persons,"firstname");
+var groupedByAge= group(persons,"age");
 ```
