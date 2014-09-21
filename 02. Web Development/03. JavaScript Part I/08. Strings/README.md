@@ -21,6 +21,7 @@
  * ``<lowcase>``text``</lowcase>`` to lowercase
  * ``<mixcase>``text``</mixcase>`` to mix casing(random)
 
+ Example:
  ```
  We are <mixcase>living</mixcase> in a <upcase>yellow submarine</upcase>. We <mixcase>don't</mixcase> have <lowcase>anything</lowcase> else.
  ```
