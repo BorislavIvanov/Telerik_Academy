@@ -79,3 +79,30 @@
  var str = stringFormat("Hello {0}!","Peter");
  //str = "Hello Peter!";
  ```
+
+11. Write a function that formats a string using placeholders: 
+ ```
+ var str = stringFormat("Hello {0}!","Peter");
+ //str = "Hello Peter!";
+ ```
+ 
+ The function should work with up to 30 placeholders and all types
+ ```
+ var format = "{0}, {1}, {0} text {2}";
+ var str = stringFormat(format,1,"Pesho","Gosho");
+ //str = "1, Pesho, 1 text Gosho"
+ ```
+12. Write a function that creates a HTML UL using a template for every HTML LI. The source of the list should an array of elements. Replace all placeholders marked with –{…}–   with the value of the corresponding property of the object. 
+
+ Example: 
+ ```
+ <div data-type="template" id="list-item">
+ <strong>-{name}-</strong> <span>-{age}-</span>
+/div>
+ ```
+ ```
+ var people = [{name: "Peter", age: 14},…];
+ var tmpl = document.getElementById("list-item").innerHtml;
+ var peopleList = generateList(people,template);
+ //peopleList = "<ul><li><strong>Peter</strong> <span>14</span></li><li>…</li>…</ul>"
+ ```
