@@ -2,6 +2,9 @@
 
 **Exercises: **
 
-![](https://raw.githubusercontent.com/BorislavIvanov/Telerik_Academy/master/Resources/Exercise%20images/Semantic%20Web%20-%20Task%201.JPG)
-![](https://raw.githubusercontent.com/BorislavIvanov/Telerik_Academy/master/Resources/Exercise%20images/Semantic%20Web%20-%20Task%202.JPG)
-![](https://raw.githubusercontent.com/BorislavIvanov/Telerik_Academy/master/Resources/Exercise%20images/Semantic%20Web%20-%20Task%203.JPG)
+01. Refactor the refactoring-homework.html web page and make its HTML semantic.
+
+02. Create a web page using semantic HTML by the design in homework-design-1.pptx.
+
+03. Create a web page using semantic HTML by the design in homework-design-2.pptx.
+
