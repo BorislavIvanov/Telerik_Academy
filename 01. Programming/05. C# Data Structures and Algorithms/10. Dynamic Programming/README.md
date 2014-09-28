@@ -11,7 +11,16 @@
  * ham – weight=2, cost=3
  * whiskey – weight=8, cost=13
 
- Optimal solution:
- nuts + whiskey
- weight = 9
- cost = 17
+ Optimal solution: ``nuts + whiskey - weight = 9, cost = 17``
+ 
+02. Write a program to calculate the ``"Minimum Edit Distance" (MED)`` between two words. ``MED(x, y)`` is the minimal sum of costs of edit operations used to transform x to y. Sample costs are given below:
+
+ * cost (replace a letter) = 1
+ * cost (delete a letter) = 0.9
+ * cost (insert a letter) = 0.8
+
+Example: x = "developer", y = "enveloped" -> cost = 2.7 
+ * delete ‘d’:  "developer"  "eveloper", cost = 0.9
+ * insert ‘n’:  "eveloper"  "enveloper", cost = 0.8
+ * replace ‘r’  ‘d’:  "enveloper"  "enveloped", cost = 1
+
