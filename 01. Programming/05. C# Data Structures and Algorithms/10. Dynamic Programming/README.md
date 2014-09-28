@@ -19,7 +19,7 @@
  * cost (delete a letter) = 0.9
  * cost (insert a letter) = 0.8
 
-Example: x = "developer", y = "enveloped" -> cost = 2.7 
+ Example: x = "developer", y = "enveloped" -> cost = 2.7 
  * delete ‘d’:  "developer"  "eveloper", cost = 0.9
  * insert ‘n’:  "eveloper"  "enveloper", cost = 0.8
  * replace ‘r’  ‘d’:  "enveloper"  "enveloped", cost = 1
