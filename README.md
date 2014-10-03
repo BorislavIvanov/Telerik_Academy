@@ -8,6 +8,8 @@
 * **C# OOP** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/03.%20C%23%20OOP)
 * **C# High Quality Code** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/04.%20C%23%20High%20Quality%20Code)
 * **C# Data Structures and Algorithms** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/05.%20C%23%20Data%20Structures%20and%20Algorithms)
+* **==Exam Tasks==** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/%3D%3DExam%20Tasks%3D%3D)
+* **==Teamworks==** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/01.%20Programming/%3D%3DTeam%20Works%3D%3D)
 
 [**02. Web Development**](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development)
 * **HTML 5** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/01.%20HTML%205)
@@ -16,5 +18,7 @@
 * **JavaScript Part Two (UI & DOM)** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/04.%20JavaScript%20Part%20II%20(UI%20%26%20DOM))
 * **JavaScript OOP** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/05.%20JavaScript%20OOP)
 * **JavaScript Applications** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/06.%20JavaScript%20Applications)
+* **==Exam Tasks==** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/%3D%3DExam%20Tasks%3D%3D)
+* **==Teamworks==** - [*Link*](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/02.%20Web%20Development/%3D%3DTeam%20Works%3D%3D)
 
 [**03. Databases**](https://github.com/BorislavIvanov/Telerik_Academy/tree/master/03.%20Databases)
